@@ -107,9 +107,8 @@ exit 0
 EOF
 chmod 755 "${STAGE_DIR}/DEBIAN/postinst"
 
-OUT_DEB="${SCRIPT_DIR}/BridgeMind-One_0.3.4_arm64.deb"
+OUT_DEB="${SCRIPT_DIR}/bridgemind-one_0.3.4_arm64.deb"
 dpkg-deb --root-owner-group -Zgzip --build "${STAGE_DIR}" "${OUT_DEB}"
-cp -f "${OUT_DEB}" "${SCRIPT_DIR}/bridgemind-one_0.3.4_arm64.deb"
 
 echo "============================================================"
 echo "  Build Complete!"
@@ -117,7 +116,7 @@ echo "  Debian Package (.deb):"
 ls -lh "${OUT_DEB}"
 echo ""
 echo "  Install with:"
-echo "    sudo apt install ./BridgeMind-One_0.3.4_arm64.deb"
+echo "    sudo apt install ./bridgemind-one_0.3.4_arm64.deb"
 echo "  Then launch:"
 echo "    bridgemind-one"
 echo "============================================================"
