@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="64ee52e7-0132-562b-9ff9-0f4b22cdb6e4")}catch(e){}}();
+import{t as e}from"./jsx-runtime-0vZSBttN.js";var t=e();function n({icon:e,title:n,description:r,action:i,layout:a=`fill`,className:o,children:s,...c}){let l=[`empty-surface`];return a!==`fill`&&l.push(`empty-surface--${a}`),o&&l.push(o),(0,t.jsxs)(`section`,{className:l.join(` `),...c,children:[e?(0,t.jsx)(`span`,{"aria-hidden":`true`,className:`empty-surface__icon`,children:e}):null,(0,t.jsxs)(`div`,{className:`empty-surface__copy`,children:[(0,t.jsx)(`h1`,{children:n}),r?(0,t.jsx)(`p`,{children:r}):null]}),i?(0,t.jsx)(`div`,{className:`empty-surface__action`,children:i}):null,s]})}export{n as t};
+//# debugId=64ee52e7-0132-562b-9ff9-0f4b22cdb6e4

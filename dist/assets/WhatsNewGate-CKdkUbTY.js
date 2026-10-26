@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="5db198b8-7a03-5bdb-ad17-bf1681c1686a")}catch(e){}}();
+import{i as e,t}from"./react-SIfiwpqq.js";import{t as n}from"./jsx-runtime-0vZSBttN.js";import{a as r,c as i,d as a,f as o,i as s,s as c,t as l}from"./WhatsNewDialog-DtSAeaPK.js";var u=e(t(),1),d=n();function f({version:e}){let[t,n]=(0,u.useState)(()=>{let t=i(),n=o(s,e,t),l=c(e)&&(t===null||r(t,e)<0);return n.length===0&&l&&a(e),n});return t.length===0?null:(0,d.jsx)(l,{onAcknowledge:()=>{a(e),n([])},releases:t})}export{f as WhatsNewGate};
+//# debugId=5db198b8-7a03-5bdb-ad17-bf1681c1686a

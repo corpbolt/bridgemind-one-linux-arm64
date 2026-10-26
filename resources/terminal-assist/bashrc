@@ -1,0 +1,25 @@
+# BridgeMind terminal integration loader
+BMONE_INTEGRATION_DIR="${BMONE_SHELL_INTEGRATION_DIR:-\\?\C:\Users\saido\AppData\Local\ai.bridgemind.one\terminal-assist}"
+if [[ -n "${BMONE_SHELL_LOGIN-}" ]]; then
+  unset BMONE_SHELL_LOGIN
+  [[ -r /etc/profile ]] && source /etc/profile
+  if [[ -r "$HOME/.bash_profile" ]]; then source "$HOME/.bash_profile"
+  elif [[ -r "$HOME/.bash_login" ]]; then source "$HOME/.bash_login"
+  elif [[ -r "$HOME/.profile" ]]; then source "$HOME/.profile"
+  fi
+else
+  [[ -f "$HOME/.bashrc" ]] && source "$HOME/.bashrc"
+fi
+source "$BMONE_INTEGRATION_DIR/integration.bash"
+if [[ -n "${bash_preexec_imported-}${__bp_imported-}" ]]; then
+  preexec_functions+=(__bmone_preexec)
+else
+  __bmone_prev_debug=$(trap -p DEBUG)
+  if [[ -n "$__bmone_prev_debug" ]]; then
+    eval "__bmone_prev_debug_argv=($__bmone_prev_debug)"
+    __bmone_prev_debug=${__bmone_prev_debug_argv[2]-}
+    unset __bmone_prev_debug_argv
+  fi
+  [[ "$__bmone_prev_debug" == *__bmone_* ]] && __bmone_prev_debug=
+  trap '__bmone_debug "$_"' DEBUG
+fi

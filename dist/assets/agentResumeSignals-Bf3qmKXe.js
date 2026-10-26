@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="a35f490d-5bb0-5cc1-9cc3-dbf0ebcbd776")}catch(e){}}();
+import{i as e,t}from"./react-SIfiwpqq.js";var n=e(t(),1),r=new Set,i=!1;function a(){return i}function o(){i=!0;for(let e of[...r])e()}function s(e){return r.add(e),()=>{r.delete(e)}}var c=new Set,l=new Set;function u(){for(let e of[...l])e()}function d(e){c.has(e)||(c.add(e),u())}function f(e){c.delete(e)&&u()}function p(e){return l.add(e),()=>{l.delete(e)}}function m(e){return(0,n.useSyncExternalStore)(p,()=>e!==null&&c.has(e),()=>!1)}export{a,s as i,d as n,m as o,o as r,f as t};
+//# debugId=a35f490d-5bb0-5cc1-9cc3-dbf0ebcbd776

@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="649d887c-8cf5-5118-80a5-3279409a4a4f")}catch(e){}}();
+import{l as e,m as t,u as n}from"./schemas-j-hB7U_4.js";var r=e().int().min(-0xe8d4a51000).max(0xe8d4a51000),i=n({balance:r,cycleBalance:r,purchasedBalance:r,currentCycleGranted:r,currentCycleSpent:r,lifetimeGranted:r,lifetimeSpent:r,lastGrantedAt:t().min(1).max(64).nullable()}).strict();function a(e){return e<50?`empty`:e<500?`low`:`ok`}function o(e){return e.toLocaleString(`en-US`)}var s=`https://www.bridgemind.ai/credits`;function c(e,t){return t===null||e>t?null:`${o(Math.max(0,e))} of ${o(t)} this cycle`}export{c as a,o as i,i as n,a as r,s as t};
+//# debugId=649d887c-8cf5-5118-80a5-3279409a4a4f

@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.sh text eol=lf
+PKGBUILD text eol=lf
+*.png binary
+*.wav binary
+*.deb binary
+bin/* binary

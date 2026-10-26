@@ -1,0 +1,1 @@
+.side-panel-app{border-radius:0 0 var(--radius-panel) var(--radius-panel);min-height:0;color:var(--text-primary);flex-direction:column;flex:auto;display:flex;overflow:hidden}.side-panel-app>.ui-status-notice{margin:auto}

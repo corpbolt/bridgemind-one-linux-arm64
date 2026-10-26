@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="d32067d0-d9e5-5b7e-ba05-0d2a7cb4cf2d")}catch(e){}}();
+import{i as e}from"./react-SIfiwpqq.js";import{t}from"./jsx-runtime-0vZSBttN.js";import{pn as n}from"./index-C4vX1IEp.js";import{t as r}from"./Sheet-CkYVFqAN.js";var i=e(n(),1),a=t();function o({open:e,title:t,message:n,confirmLabel:o,cancelLabel:s=`Cancel`,destructive:c=!0,onConfirm:l,onCancel:u}){return(0,i.createPortal)((0,a.jsx)(r,{onCancel:u,open:e,primary:{label:o,onClick:l,variant:c?`danger`:`primary`},secondary:{label:s,onClick:u},title:t,children:(0,a.jsx)(`p`,{children:n})}),document.body)}export{o as t};
+//# debugId=d32067d0-d9e5-5b7e-ba05-0d2a7cb4cf2d

@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="5fabfe54-b272-5583-8ac3-412b37b33818")}catch(e){}}();
+import{i as e,t}from"./react-SIfiwpqq.js";var n=e(t(),1);function r(e){let[t,r]=(0,n.useState)(()=>Date.now());return(0,n.useEffect)(()=>{if(e===null){r(Date.now());return}let t,n=()=>{let i=Date.now();r(i);let a=e-i;a<=0||(t=setTimeout(n,(a%1e3||1e3)+4))};return n(),()=>clearTimeout(t)},[e]),t}function i(e,t=1e3){let[r,i]=(0,n.useState)(()=>Date.now());return(0,n.useEffect)(()=>{if(e===null){i(Date.now());return}let n,r=()=>{let a=Date.now();i(a);let o=Math.max(0,a-e);n=setTimeout(r,t-o%t+4)};return r(),()=>clearTimeout(n)},[e,t]),r}export{i as n,r as t};
+//# debugId=5fabfe54-b272-5583-8ac3-412b37b33818

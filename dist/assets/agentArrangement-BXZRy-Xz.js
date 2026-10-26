@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="821b6235-4918-587b-aa96-c90feca724e1")}catch(e){}}();
+import{_ as e,a as t,i as n,l as r}from"./schemas-j-hB7U_4.js";import{c as i}from"./shell-RFF5JWAG.js";import"./preload-helper-Czpn1I53.js";function a(a){async function o(e,t={}){try{return n(i).max(2e3).parse(await a.invoke(e,{request:{supportedSchemaVersion:1,...t}}))}catch{throw Error(`Agent arrangement could not be loaded or saved. Try again.`)}}return{list:()=>o(`list_agent_arrangement`),pin:(n,r)=>o(`set_agent_pinned`,{agentId:e().parse(n),pinned:t().parse(r)}),move:(t,n)=>o(`move_agent`,{agentId:e().parse(t),toIndex:r().int().min(0).max(1999).parse(n)})}}export{a as createAgentArrangementService};
+//# debugId=821b6235-4918-587b-aa96-c90feca724e1

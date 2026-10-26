@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="647887e0-3765-5727-8877-4031985a68d7")}catch(e){}}();
+import"./chat-D3Sbs-M3.js";async function e(e){if(e.size>10485760)throw Error(`That file is too large to attach (10 MB maximum).`);if(!e.name||e.name.length>255)throw Error(`That file needs a shorter name before it can be attached.`);let t=new Uint8Array(await e.arrayBuffer()),n=``;for(let e=0;e<t.length;e+=24576)n+=btoa(String.fromCharCode(...t.subarray(e,e+24576)));return{displayName:e.name,mimeType:e.type||`application/octet-stream`,dataBase64:n}}export{e as chatBlobFromFile};
+//# debugId=647887e0-3765-5727-8877-4031985a68d7

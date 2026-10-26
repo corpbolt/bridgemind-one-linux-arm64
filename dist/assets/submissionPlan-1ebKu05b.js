@@ -1,0 +1,8 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="a9559c0c-70f6-5083-a4b6-1bf7792ec0cf")}catch(e){}}();
+var e={enterDelayMs:250,bracketSingleLine:!0,verifyWindowMs:1500,readyCapMs:8e3},t={enterDelayMs:150,bracketSingleLine:!1,verifyWindowMs:1500,readyCapMs:8e3};function n(n){switch(n){case`claude-code`:return e;case`codex`:return{...e,enterDelayMs:200};case`cursor`:return e;case`gemini`:case`github-copilot`:case`droid`:case`open-code`:case`deep-seek`:case`grok`:case`kimi`:case`amp`:case`antigravity`:case`muse`:case`aider`:return t;case`terminal`:return{enterDelayMs:0,bracketSingleLine:!1,verifyWindowMs:0,readyCapMs:8e3}}}var r=`\x1B[200~`,i=`\x1B[201~`;function a(e,t){let n=u(e),a=[];if(n.length>0){let e=t.bracketedPaste&&(n.includes(`
+`)||t.profile.bracketSingleLine);a.push({kind:`write`,text:e?r+n+i:n})}return t.thenSubmit&&(t.profile.enterDelayMs>0&&a.push({kind:`wait`,ms:t.profile.enterDelayMs}),a.push({kind:`write`,text:`\r`})),{steps:a}}async function o(e,t){for(let n of e.steps){if(n.kind===`wait`){await t.sleep(n.ms);continue}if(t.proceed&&!t.proceed())return!1;try{await t.write(n.text)}catch{return!1}}return!0}var s=`\x1B[?2004h`,c=`\x1B[?2004l`;function l(e){let t=e.lastIndexOf(s),n=e.lastIndexOf(c);return t<0&&n<0?null:t>n}function u(e){let t=e.replace(/\r\n/g,`
+`).replace(/\r/g,`
+`),n=``;for(let e of t){let t=e.codePointAt(0)??0;(e===`
+`||e===`	`||t>=32&&!(t>=127&&t<=159))&&(n+=e)}return n}export{i as a,u as i,a as n,r as o,o as r,n as s,l as t};
+//# debugId=a9559c0c-70f6-5083-a4b6-1bf7792ec0cf

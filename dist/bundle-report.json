@@ -1,0 +1,6649 @@
+{
+  "schemaVersion": 2,
+  "source": {
+    "commitSha": "3e73d9ea7d44bea8f2c9a91970655f74431eb7e2",
+    "dirty": false
+  },
+  "budgets": {
+    "enforced": {
+      "initialJavaScriptBytes": 670720,
+      "initialJavaScriptGzipBytes": 202752,
+      "initialCssBytes": 91136,
+      "initialCssGzipBytes": 17408,
+      "asyncRouteClosureBytes": 495616,
+      "bridgeVerseBytes": 1782915,
+      "bridgeVerseSceneClosureBytes": 864256,
+      "bridgeVerseHudChildClosureBytes": {
+        "src/components/sidePanelApps/bridgeVerse/BridgeVerseApp.tsx": 539648,
+        "src/components/sidePanelApps/bridgeVerse/towerHud.ts": 557056,
+        "src/components/sidePanelApps/bridgeVerse/SoundMenu.tsx": 544768,
+        "src/components/sidePanelApps/bridgeVerse/audio/index.ts": 643072,
+        "src/components/sidePanelApps/bridgeVerse/arcade/index.ts": 622592,
+        "src/state/sidePanelApps/agentVoiceCall.ts": 580608,
+        "src/state/sidePanelApps/officeAssistantCall.ts": 580608
+      },
+      "whatsNewSceneClosureBytes": 573440,
+      "logoBytes": 393216
+    },
+    "targets": {
+      "initialJavaScriptBytes": 512000,
+      "initialJavaScriptGzipBytes": 148480,
+      "initialCssBytes": 81920,
+      "initialCssGzipBytes": 15360,
+      "asyncRouteClosureBytes": 460800,
+      "logoBytes": 358400
+    }
+  },
+  "initial": {
+    "files": [
+      "assets/agents-DucYuCae.js",
+      "assets/bridgeContext-C11At3Ko.js",
+      "assets/bridgeTools-HrgZdXT1.js",
+      "assets/chat-D3Sbs-M3.js",
+      "assets/compactTokenLabel-42-kwOSl.js",
+      "assets/core-B1WoYMf3.js",
+      "assets/core-DLA1qCJT.js",
+      "assets/credits-DkPZe0kY.js",
+      "assets/defineProperty-BbfpZ9Tg.js",
+      "assets/desktopRuntime.production-BKhqnLEm.js",
+      "assets/entitlements-Cv0g3vy-.js",
+      "assets/externalLink-C0UbrXz7.js",
+      "assets/index-C4vX1IEp.js",
+      "assets/index-d1YOOzH-.css",
+      "assets/jsx-runtime-0vZSBttN.js",
+      "assets/nativeEvents-BnoLXYHt.js",
+      "assets/nativeInvoke-CTq3A0Hk.js",
+      "assets/notification-AkSum1Of.js",
+      "assets/panes-CDzT4q8H.js",
+      "assets/pluginIdentity-Doii9gO3.js",
+      "assets/preload-helper-Czpn1I53.js",
+      "assets/react-SIfiwpqq.js",
+      "assets/schemas-D7oRcHmS.js",
+      "assets/schemas-j-hB7U_4.js",
+      "assets/shell-RFF5JWAG.js",
+      "assets/telemetry-CbJ5g2AL.js",
+      "assets/threadGrid-MgtUr-uw.js"
+    ],
+    "javascript": {
+      "bytes": 669511,
+      "gzipBytes": 201444
+    },
+    "css": {
+      "bytes": 87240,
+      "gzipBytes": 15918
+    },
+    "totalBytes": 756751
+  },
+  "routes": [
+    {
+      "entry": "_BridgeOrb-DaI4-RPG.js",
+      "files": [
+        "assets/BridgeOrb-DaI4-RPG.js"
+      ],
+      "javascript": {
+        "bytes": 7491,
+        "gzipBytes": 2979
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 7491
+    },
+    {
+      "entry": "_RemoteApprovalBanners-B6sKhmQt.js",
+      "files": [
+        "assets/RemoteApprovalBanners-B6sKhmQt.js",
+        "assets/smartphone-C0jDOuKk.js",
+        "assets/time-7Em5aelp.js"
+      ],
+      "javascript": {
+        "bytes": 3510,
+        "gzipBytes": 1815
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 3510
+    },
+    {
+      "entry": "_TooltipLayer-_cmXIIVg.js",
+      "files": [
+        "assets/TooltipLayer-_cmXIIVg.js"
+      ],
+      "javascript": {
+        "bytes": 3923,
+        "gzipBytes": 1631
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 3923
+    },
+    {
+      "entry": "_agentResume-CFivpW-c.js",
+      "files": [
+        "assets/agentResume-CFivpW-c.js"
+      ],
+      "javascript": {
+        "bytes": 2925,
+        "gzipBytes": 1297
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 2925
+    },
+    {
+      "entry": "_agentUsage-BTRcgZRH.js",
+      "files": [
+        "assets/agentUsage-BTRcgZRH.js"
+      ],
+      "javascript": {
+        "bytes": 3594,
+        "gzipBytes": 1708
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 3594
+    },
+    {
+      "entry": "_authDiagnostics-BLVXF-V1.js",
+      "files": [
+        "assets/authDiagnostics-BLVXF-V1.js"
+      ],
+      "javascript": {
+        "bytes": 2297,
+        "gzipBytes": 1107
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 2297
+    },
+    {
+      "entry": "_bridgeReflection-DcgMJkzS.js",
+      "files": [
+        "assets/bridgeReflection-DcgMJkzS.js"
+      ],
+      "javascript": {
+        "bytes": 2002,
+        "gzipBytes": 1020
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 2002
+    },
+    {
+      "entry": "_browser-0ZxECzbM.js",
+      "files": [
+        "assets/browser-0ZxECzbM.js"
+      ],
+      "javascript": {
+        "bytes": 5468,
+        "gzipBytes": 2086
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 5468
+    },
+    {
+      "entry": "_claudeAccounts-BRdm4CQ0.js",
+      "files": [
+        "assets/claudeAccounts-BRdm4CQ0.js"
+      ],
+      "javascript": {
+        "bytes": 1476,
+        "gzipBytes": 755
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 1476
+    },
+    {
+      "entry": "_codexAccounts-wNMyI_X2.js",
+      "files": [
+        "assets/codexAccounts-wNMyI_X2.js"
+      ],
+      "javascript": {
+        "bytes": 1384,
+        "gzipBytes": 737
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 1384
+    },
+    {
+      "entry": "_core-B1WoYMf3.js",
+      "files": [],
+      "javascript": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 0
+    },
+    {
+      "entry": "_desktopRuntime.production-BKhqnLEm.js",
+      "files": [],
+      "javascript": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 0
+    },
+    {
+      "entry": "_files-ChxbXQPh.js",
+      "files": [
+        "assets/files-ChxbXQPh.js"
+      ],
+      "javascript": {
+        "bytes": 8284,
+        "gzipBytes": 2783
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 8284
+    },
+    {
+      "entry": "_macMigrationRuntime-B4ftCSPk.js",
+      "files": [
+        "assets/macMigrationRuntime-B4ftCSPk.js"
+      ],
+      "javascript": {
+        "bytes": 4146,
+        "gzipBytes": 1788
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 4146
+    },
+    {
+      "entry": "_nativeInvoke-CTq3A0Hk.js",
+      "files": [],
+      "javascript": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 0
+    },
+    {
+      "entry": "_remote-CDyNhTn5.js",
+      "files": [
+        "assets/remote-CDyNhTn5.js"
+      ],
+      "javascript": {
+        "bytes": 1868,
+        "gzipBytes": 943
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 1868
+    },
+    {
+      "entry": "_routines-DNvqPiUM.js",
+      "files": [
+        "assets/routines-DNvqPiUM.js"
+      ],
+      "javascript": {
+        "bytes": 7691,
+        "gzipBytes": 2884
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 7691
+    },
+    {
+      "entry": "_taskExecution-BpfOyGXx.js",
+      "files": [
+        "assets/taskExecution-BpfOyGXx.js"
+      ],
+      "javascript": {
+        "bytes": 3996,
+        "gzipBytes": 1665
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 3996
+    },
+    {
+      "entry": "_terminalFontSize-CgzV6TQr.js",
+      "files": [
+        "assets/terminalFontSize-CgzV6TQr.js"
+      ],
+      "javascript": {
+        "bytes": 1442,
+        "gzipBytes": 707
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 1442
+    },
+    {
+      "entry": "_terminalHost-naZxxOML.js",
+      "files": [
+        "assets/terminalHost-naZxxOML.js"
+      ],
+      "javascript": {
+        "bytes": 3482,
+        "gzipBytes": 1387
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 3482
+    },
+    {
+      "entry": "_terminalRuntime.production-CcZJiczA.js",
+      "files": [
+        "assets/terminalRuntime.production-CcZJiczA.js"
+      ],
+      "javascript": {
+        "bytes": 33299,
+        "gzipBytes": 10554
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 33299
+    },
+    {
+      "entry": "_useBrowserSurface-DDcURJcG.js",
+      "files": [
+        "assets/browser-0ZxECzbM.js",
+        "assets/useBrowserSurface-DDcURJcG.js"
+      ],
+      "javascript": {
+        "bytes": 22664,
+        "gzipBytes": 6975
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 22664
+    },
+    {
+      "entry": "node_modules/@tauri-apps/api/dpi.js",
+      "files": [
+        "assets/dpi-Io7YIRQk.js"
+      ],
+      "javascript": {
+        "bytes": 2421,
+        "gzipBytes": 660
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 2421
+    },
+    {
+      "entry": "node_modules/@tauri-apps/api/event.js",
+      "files": [
+        "assets/event-Cda0xDkT.js"
+      ],
+      "javascript": {
+        "bytes": 1708,
+        "gzipBytes": 813
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 1708
+    },
+    {
+      "entry": "node_modules/@tauri-apps/api/webview.js",
+      "files": [
+        "assets/dpi-Io7YIRQk.js",
+        "assets/event-Cda0xDkT.js",
+        "assets/webview-yEvs2blx.js",
+        "assets/window-CtlHtcNe.js"
+      ],
+      "javascript": {
+        "bytes": 19419,
+        "gzipBytes": 5764
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 19419
+    },
+    {
+      "entry": "node_modules/@tauri-apps/api/window.js",
+      "files": [
+        "assets/dpi-Io7YIRQk.js",
+        "assets/event-Cda0xDkT.js",
+        "assets/window-CtlHtcNe.js"
+      ],
+      "javascript": {
+        "bytes": 15660,
+        "gzipBytes": 4448
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 15660
+    },
+    {
+      "entry": "node_modules/@xterm/addon-webgl/lib/addon-webgl.mjs",
+      "files": [
+        "assets/addon-webgl-BJCjBVrd.js"
+      ],
+      "javascript": {
+        "bytes": 113784,
+        "gzipBytes": 30946
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 113784
+    },
+    {
+      "entry": "node_modules/posthog-js/dist/module.slim.no-external.js",
+      "files": [
+        "assets/module.slim.no-external-CCOCy_Gx.js"
+      ],
+      "javascript": {
+        "bytes": 156861,
+        "gzipBytes": 50664
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 156861
+    },
+    {
+      "entry": "src/app/macMigrationRefreshRuntime.ts",
+      "files": [
+        "assets/macMigrationRefreshRuntime-BvKRN3m3.js"
+      ],
+      "javascript": {
+        "bytes": 1278,
+        "gzipBytes": 655
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 1278
+    },
+    {
+      "entry": "src/app/placeWorkspaceLaunch.ts",
+      "files": [
+        "assets/placeWorkspaceLaunch-BPGV8EwS.js"
+      ],
+      "javascript": {
+        "bytes": 1697,
+        "gzipBytes": 839
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 1697
+    },
+    {
+      "entry": "src/components/AgentEditor.tsx",
+      "files": [
+        "assets/agent-engine-chip-B7jnK5RI.js",
+        "assets/agent-engine-chip-Cxnpk2-J.css",
+        "assets/agent-install-OztSrmu1.css",
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/agentDraft-CaFzDlOO.js",
+        "assets/AgentEditor-B-rQoax8.css",
+        "assets/AgentEditor-CZIWO6Wn.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/dices-fSRTHzFb.js",
+        "assets/download-CrW6AHpO.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/InstallAgentButton-0O4clz7A.js",
+        "assets/key-round-CP_W6W3W.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/mic-off-DEDJwA2O.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/user-round-plus-BBLpDGSj.js"
+      ],
+      "javascript": {
+        "bytes": 52986,
+        "gzipBytes": 21190
+      },
+      "css": {
+        "bytes": 16822,
+        "gzipBytes": 4058
+      },
+      "totalBytes": 69808
+    },
+    {
+      "entry": "src/components/MacMigrationNotice.tsx",
+      "files": [
+        "assets/arrow-down-to-line-_dR5nPAe.js",
+        "assets/MacMigrationNotice-JSU4tVIx.js"
+      ],
+      "javascript": {
+        "bytes": 3378,
+        "gzipBytes": 1759
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 3378
+    },
+    {
+      "entry": "src/components/MainSurfaces.tsx",
+      "files": [
+        "assets/agent-install-OztSrmu1.css",
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/agentMemoryText-BHXfytPf.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/brain-DxxjPEl6.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/circle-alert-B6Purx7S.js",
+        "assets/clock-3-DcGi4IAM.js",
+        "assets/destinations-CgL7jO-l.css",
+        "assets/download-CrW6AHpO.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/folder-plus-guuM2g9p.js",
+        "assets/InstallAgentButton-0O4clz7A.js",
+        "assets/key-round-CP_W6W3W.js",
+        "assets/MainSurfaces-BICttdLl.css",
+        "assets/MainSurfaces-BS_MTjOQ.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/settings-4DLcM1v7.js",
+        "assets/sliders-horizontal-BZsD-Kao.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/user-round-plus-BBLpDGSj.js",
+        "assets/wand-sparkles-CAwyskWk.js"
+      ],
+      "javascript": {
+        "bytes": 82252,
+        "gzipBytes": 32223
+      },
+      "css": {
+        "bytes": 30407,
+        "gzipBytes": 6560
+      },
+      "totalBytes": 112659
+    },
+    {
+      "entry": "src/components/ResumeHost.tsx",
+      "files": [
+        "assets/agent-resume-DAdt1vi1.css",
+        "assets/agentResumeSignals-Bf3qmKXe.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/ResumeHost-C651f7zE.js",
+        "assets/Sheet-CkYVFqAN.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js"
+      ],
+      "javascript": {
+        "bytes": 20782,
+        "gzipBytes": 8882
+      },
+      "css": {
+        "bytes": 1903,
+        "gzipBytes": 634
+      },
+      "totalBytes": 22685
+    },
+    {
+      "entry": "src/components/SessionNotices.tsx",
+      "files": [
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/SessionNotices-DPElNHk0.js"
+      ],
+      "javascript": {
+        "bytes": 1768,
+        "gzipBytes": 981
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 1768
+    },
+    {
+      "entry": "src/components/SessionRenameSheet.tsx",
+      "files": [
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/SessionRenameSheet-D_uVF1vA.js",
+        "assets/Sheet-CkYVFqAN.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js"
+      ],
+      "javascript": {
+        "bytes": 13553,
+        "gzipBytes": 6107
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 13553
+    },
+    {
+      "entry": "src/components/Sidebar.tsx",
+      "files": [
+        "assets/agent-install-OztSrmu1.css",
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/arrow-down-bUQhI1OP.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/contextMenu-B4B7zGOw.js",
+        "assets/copy-CWLsruk3.js",
+        "assets/download-CrW6AHpO.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/folder-open-CR6h-6Ms.js",
+        "assets/InstallAgentButton-0O4clz7A.js",
+        "assets/key-round-CP_W6W3W.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/message-square-YxBgTVI-.js",
+        "assets/MiddleTruncate-DHGHuUmu.js",
+        "assets/paneActivity-BJeADhM7.js",
+        "assets/paneDropTarget-DsuEMAnF.js",
+        "assets/pencil-CJQcj41x.js",
+        "assets/pin-PIXxiJKQ.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/settings-4DLcM1v7.js",
+        "assets/Sidebar-BruZqATG.js",
+        "assets/Sidebar-CGIJgK-Q.css",
+        "assets/sliders-horizontal-BZsD-Kao.js",
+        "assets/sun-CPSV-q5d.js",
+        "assets/time-7Em5aelp.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/trash-2-BoDrCofr.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/usePaneActivity-B8z7p1La.js",
+        "assets/usePointerDrag-DjRo37fZ.js",
+        "assets/useRailMenu-DLKqKSCA.js",
+        "assets/WorkspaceRoster-C1yfJ7Ri.js"
+      ],
+      "javascript": {
+        "bytes": 87822,
+        "gzipBytes": 37075
+      },
+      "css": {
+        "bytes": 6437,
+        "gzipBytes": 1632
+      },
+      "totalBytes": 94259
+    },
+    {
+      "entry": "src/components/TelemetrySettings.tsx",
+      "files": [
+        "assets/arrow-down-to-line-_dR5nPAe.js",
+        "assets/bell-DTnHIh6A.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/palette-Cwrmr-lk.js",
+        "assets/puzzle-BcAWs5ON.js",
+        "assets/settings-4DLcM1v7.js",
+        "assets/settings-page-RnV_eRBL.css",
+        "assets/settings-page-VeaN-RNO.js",
+        "assets/SettingsControls-Cc7Hj9MQ.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/telemetryClient-Di94oJjx.js",
+        "assets/TelemetrySettings-BnySsJuR.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/users-DXo4fiY4.js"
+      ],
+      "javascript": {
+        "bytes": 32434,
+        "gzipBytes": 14841
+      },
+      "css": {
+        "bytes": 6924,
+        "gzipBytes": 1545
+      },
+      "totalBytes": 39358
+    },
+    {
+      "entry": "src/components/ThreadUsageMeter.tsx",
+      "files": [
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/paneActivity-BJeADhM7.js",
+        "assets/Popover-CjM8FWoH.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/ThreadUsageMeter-BT1Xf06c.js",
+        "assets/UsageMeterChip-B0_e9cGF.js",
+        "assets/UsageMeterChip-DgGG9Xxy.css",
+        "assets/usePaneActivity-B8z7p1La.js"
+      ],
+      "javascript": {
+        "bytes": 53000,
+        "gzipBytes": 19034
+      },
+      "css": {
+        "bytes": 4186,
+        "gzipBytes": 1041
+      },
+      "totalBytes": 57186
+    },
+    {
+      "entry": "src/components/UpdateFace.tsx",
+      "files": [
+        "assets/circle-alert-B6Purx7S.js",
+        "assets/circle-arrow-down-CcjBcknJ.js",
+        "assets/UpdateFace-BGXZSmvk.js"
+      ],
+      "javascript": {
+        "bytes": 3040,
+        "gzipBytes": 1497
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 3040
+    },
+    {
+      "entry": "src/components/UsageDashboard.tsx",
+      "files": [
+        "assets/agentUsage-BTRcgZRH.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/Sheet-CkYVFqAN.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/UsageDashboard-CP8NaxBG.js",
+        "assets/UsageDashboard-zBhdOS2P.css"
+      ],
+      "javascript": {
+        "bytes": 42899,
+        "gzipBytes": 17398
+      },
+      "css": {
+        "bytes": 7565,
+        "gzipBytes": 1764
+      },
+      "totalBytes": 50464
+    },
+    {
+      "entry": "src/components/WorkspaceMenu.tsx",
+      "files": [
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/layout-grid-CQpoeATE.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/WorkspaceMenu-CYJVdKSL.js"
+      ],
+      "javascript": {
+        "bytes": 21869,
+        "gzipBytes": 9078
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 21869
+    },
+    {
+      "entry": "src/components/XtermSurface.tsx",
+      "files": [
+        "assets/agentResume-CFivpW-c.js",
+        "assets/agentResumeSignals-Bf3qmKXe.js",
+        "assets/bridgePaneRegistry-pVPcFj8s.js",
+        "assets/clipboardPaste-BGmmOiqv.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/pointerDropTargets-D2Xnxdg8.js",
+        "assets/promptDropTargets-BknDNzcK.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/sideFiles-uDrtBuA1.js",
+        "assets/taskDropTargets-ChOsHc1x.js",
+        "assets/terminalFontSize-CgzV6TQr.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/terminalScrollbackRegistry-uD3C_F34.js",
+        "assets/themeCatalog-IozZnSrt.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/XtermSurface-BY9A3xe3.css",
+        "assets/XtermSurface-XN6pwfrP.js"
+      ],
+      "javascript": {
+        "bytes": 454217,
+        "gzipBytes": 127613
+      },
+      "css": {
+        "bytes": 6674,
+        "gzipBytes": 1676
+      },
+      "totalBytes": 460891
+    },
+    {
+      "entry": "src/components/agent/AgentAutoPilot.tsx",
+      "files": [
+        "assets/AgentAutoPilot-CMOd4tJ5.js",
+        "assets/autopilotPolicy-CVejyGsU.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/chevron-left-BgzfvVf9.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/Popover-CjM8FWoH.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-ChYa7EXU.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/submissionPlan-1ebKu05b.js",
+        "assets/terminalEscapes-B4VIGGLL.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/zap-L7jU4UrA.js"
+      ],
+      "javascript": {
+        "bytes": 34889,
+        "gzipBytes": 15217
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 34889
+    },
+    {
+      "entry": "src/components/agent/AgentChatSurface.tsx",
+      "files": [
+        "assets/AgentChatSurface-DHmDoEKN.js",
+        "assets/AgentChatSurface-leJO2ASi.css",
+        "assets/agentMessaging-CMHMMnK9.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/archive-Cr7x0VXA.js",
+        "assets/ArchivedChatsDialog-C4oYuThE.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/brain-DxxjPEl6.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/calendar-clock-BNkBvV0D.js",
+        "assets/chat-thread-DcHyvN0y.js",
+        "assets/chat-thread-LgIDmM5a.css",
+        "assets/ChatPane-BLA6HaV6.js",
+        "assets/ChatPane-RyomxIB7.css",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/chevrons-up-down-CJZ19esu.js",
+        "assets/circle-alert-B6Purx7S.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/clipboardPaste-BGmmOiqv.js",
+        "assets/contextMenu-B4B7zGOw.js",
+        "assets/copy-CWLsruk3.js",
+        "assets/dictationShortcut-DxVbd2dM.js",
+        "assets/dictationShortcuts-CWCYVsaQ.js",
+        "assets/EffortPicker-BaPhMv37.js",
+        "assets/EffortPicker-CV2jWdGD.css",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/eye-DoR05zJU.js",
+        "assets/file-CTFx8VP7.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/folder-plus-guuM2g9p.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/hand-CeVVtKcP.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/message-square-YxBgTVI-.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/pdf.worker.min-Dswkl-cV.mjs",
+        "assets/pencil-CJQcj41x.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/pointerDropTargets-D2Xnxdg8.js",
+        "assets/promptDropTargets-BknDNzcK.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/SafeMarkdown-CgpP42mK.css",
+        "assets/SafeMarkdown-DmkgIIFr.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/Sheet-CkYVFqAN.js",
+        "assets/sideFiles-uDrtBuA1.js",
+        "assets/sliders-horizontal-BZsD-Kao.js",
+        "assets/square-ChYa7EXU.js",
+        "assets/square-pen-BWl4Os_L.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/ssh-workspace-BpU-Xv_s.css",
+        "assets/taskDrop-CW31KPjo.css",
+        "assets/taskDropTargets-ChOsHc1x.js",
+        "assets/taskHandoff-q7WaH2yb.js",
+        "assets/terminalEscapes-B4VIGGLL.js",
+        "assets/thread-grid-DRVElEeT.css",
+        "assets/thread-grid-VRnys_TU.js",
+        "assets/time-7Em5aelp.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/UnifiedDiffView-BSuceDK4.js",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/usePointerDrag-DjRo37fZ.js",
+        "assets/workspaceChanges-v4GApiEa.js",
+        "assets/wrench-B01UWpds.js",
+        "assets/zap-L7jU4UrA.js"
+      ],
+      "javascript": {
+        "bytes": 232288,
+        "gzipBytes": 90717
+      },
+      "css": {
+        "bytes": 70260,
+        "gzipBytes": 15455
+      },
+      "totalBytes": 1568318
+    },
+    {
+      "entry": "src/components/agent/AgentInstallConfirmDialog.tsx",
+      "files": [
+        "assets/agent-install-OztSrmu1.css",
+        "assets/AgentInstallConfirmDialog-DoND9jfN.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/Sheet-CkYVFqAN.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js"
+      ],
+      "javascript": {
+        "bytes": 20423,
+        "gzipBytes": 9018
+      },
+      "css": {
+        "bytes": 6155,
+        "gzipBytes": 1491
+      },
+      "totalBytes": 26578
+    },
+    {
+      "entry": "src/components/agent/AgentInstallPane.tsx",
+      "files": [
+        "assets/agent-install-OztSrmu1.css",
+        "assets/AgentInstallPane-Cvdz2ol9.js",
+        "assets/agentResume-CFivpW-c.js",
+        "assets/agentResumeSignals-Bf3qmKXe.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/bridgePaneRegistry-pVPcFj8s.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/clipboardPaste-BGmmOiqv.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/key-round-CP_W6W3W.js",
+        "assets/pointerDropTargets-D2Xnxdg8.js",
+        "assets/promptDropTargets-BknDNzcK.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/sideFiles-uDrtBuA1.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/taskDropTargets-ChOsHc1x.js",
+        "assets/terminalFontSize-CgzV6TQr.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/terminalScrollbackRegistry-uD3C_F34.js",
+        "assets/themeCatalog-IozZnSrt.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/XtermSurface-BY9A3xe3.css",
+        "assets/XtermSurface-XN6pwfrP.js"
+      ],
+      "javascript": {
+        "bytes": 465596,
+        "gzipBytes": 132563
+      },
+      "css": {
+        "bytes": 12829,
+        "gzipBytes": 3167
+      },
+      "totalBytes": 478425
+    },
+    {
+      "entry": "src/components/agent/AgentMemoryPane.tsx",
+      "files": [
+        "assets/AgentMemoryPane-Dlrnsb2c.js",
+        "assets/agentMemoryText-BHXfytPf.js",
+        "assets/agentMind-Dvi_2Y2R.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/brain-DxxjPEl6.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/pencil-CJQcj41x.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/trash-2-BoDrCofr.js",
+        "assets/ui-GeFeEgKA.js"
+      ],
+      "javascript": {
+        "bytes": 27532,
+        "gzipBytes": 11957
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 27532
+    },
+    {
+      "entry": "src/components/agent/AgentSettingsPane.tsx",
+      "files": [
+        "assets/agent-engine-chip-B7jnK5RI.js",
+        "assets/agent-engine-chip-Cxnpk2-J.css",
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/AgentSettingsPane-CRcMEwq9.js",
+        "assets/AgentSettingsPane-CUruJL4e.css",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/brain-DxxjPEl6.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/chevrons-up-down-CJZ19esu.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/clock-3-DcGi4IAM.js",
+        "assets/dices-fSRTHzFb.js",
+        "assets/EffortPicker-BaPhMv37.js",
+        "assets/EffortPicker-CV2jWdGD.css",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/eye-DoR05zJU.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/pencil-CJQcj41x.js",
+        "assets/plugins-C_sAUJ3j.js",
+        "assets/puzzle-BcAWs5ON.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/shield-check-C4-MUqmt.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/trash-2-BoDrCofr.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/usePluginConnections-Dh4I1RlD.js",
+        "assets/zap-L7jU4UrA.js"
+      ],
+      "javascript": {
+        "bytes": 74388,
+        "gzipBytes": 29357
+      },
+      "css": {
+        "bytes": 19398,
+        "gzipBytes": 4906
+      },
+      "totalBytes": 93786
+    },
+    {
+      "entry": "src/components/agent/AgentSkillsPane.tsx",
+      "files": [
+        "assets/AgentSkillsPane-xcQeJ14R.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/chevron-left-BgzfvVf9.js",
+        "assets/circle-alert-B6Purx7S.js",
+        "assets/copy-CWLsruk3.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/SafeMarkdown-CgpP42mK.css",
+        "assets/SafeMarkdown-DmkgIIFr.js",
+        "assets/time-7Em5aelp.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/trash-2-BoDrCofr.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/wand-sparkles-CAwyskWk.js"
+      ],
+      "javascript": {
+        "bytes": 47050,
+        "gzipBytes": 19935
+      },
+      "css": {
+        "bytes": 3840,
+        "gzipBytes": 1074
+      },
+      "totalBytes": 50890
+    },
+    {
+      "entry": "src/components/agent/AgentTerminalSurface.tsx",
+      "files": [
+        "assets/agent-install-OztSrmu1.css",
+        "assets/agentResume-CFivpW-c.js",
+        "assets/agentResumeSignals-Bf3qmKXe.js",
+        "assets/AgentTerminalSurface-C4J3lhMJ.css",
+        "assets/AgentTerminalSurface-DnHcotDX.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/bridgePaneRegistry-pVPcFj8s.js",
+        "assets/circle-alert-B6Purx7S.js",
+        "assets/clipboardPaste-BGmmOiqv.js",
+        "assets/download-CrW6AHpO.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/InstallAgentButton-0O4clz7A.js",
+        "assets/key-round-CP_W6W3W.js",
+        "assets/play-iiNeVn2L.js",
+        "assets/pointerDropTargets-D2Xnxdg8.js",
+        "assets/promptDropTargets-BknDNzcK.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/sideFiles-uDrtBuA1.js",
+        "assets/square-ChYa7EXU.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/taskDropTargets-ChOsHc1x.js",
+        "assets/terminalFontSize-CgzV6TQr.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/terminalScrollbackRegistry-uD3C_F34.js",
+        "assets/themeCatalog-IozZnSrt.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/XtermSurface-BY9A3xe3.css",
+        "assets/XtermSurface-XN6pwfrP.js",
+        "assets/zap-L7jU4UrA.js"
+      ],
+      "javascript": {
+        "bytes": 473417,
+        "gzipBytes": 136546
+      },
+      "css": {
+        "bytes": 21031,
+        "gzipBytes": 5078
+      },
+      "totalBytes": 494448
+    },
+    {
+      "entry": "src/components/auth/AuthGate.tsx",
+      "files": [
+        "assets/authDiagnostics-BLVXF-V1.js",
+        "assets/AuthGate-BQ3w1Z1j.js",
+        "assets/AuthGate-qwft0FQ6.css",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/messages-square-CJUkr_Q4.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js"
+      ],
+      "javascript": {
+        "bytes": 30181,
+        "gzipBytes": 11714
+      },
+      "css": {
+        "bytes": 14624,
+        "gzipBytes": 3291
+      },
+      "totalBytes": 44805
+    },
+    {
+      "entry": "src/components/bridge/BridgeSettingsSection.tsx",
+      "files": [
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/arrow-down-to-line-_dR5nPAe.js",
+        "assets/bell-DTnHIh6A.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/bridgePersona-DsWulthW.js",
+        "assets/bridgeReflection-DcgMJkzS.js",
+        "assets/BridgeSettingsSection-DDO02PeN.css",
+        "assets/BridgeSettingsSection-Pw7axTf6.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/corner-down-left-BbE-RcRw.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/folder-open-CR6h-6Ms.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/palette-Cwrmr-lk.js",
+        "assets/puzzle-BcAWs5ON.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/settings-4DLcM1v7.js",
+        "assets/settings-page-RnV_eRBL.css",
+        "assets/settings-page-VeaN-RNO.js",
+        "assets/SettingsControls-Cc7Hj9MQ.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/time-7Em5aelp.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/trash-2-BoDrCofr.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/users-DXo4fiY4.js"
+      ],
+      "javascript": {
+        "bytes": 57895,
+        "gzipBytes": 24878
+      },
+      "css": {
+        "bytes": 17913,
+        "gzipBytes": 4085
+      },
+      "totalBytes": 75808
+    },
+    {
+      "entry": "src/components/bridge/BridgeStrip.tsx",
+      "files": [
+        "assets/archive-Cr7x0VXA.js",
+        "assets/brain-DxxjPEl6.js",
+        "assets/BridgeOrb-DaI4-RPG.js",
+        "assets/BridgeStrip-DDZXNU4R.js",
+        "assets/BridgeStrip-DVAC0-Sk.css",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-left-BgzfvVf9.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/circle-arrow-down-CcjBcknJ.js",
+        "assets/circle-stop-JvgRRZVz.js",
+        "assets/download-CrW6AHpO.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/folder-plus-guuM2g9p.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/key-round-CP_W6W3W.js",
+        "assets/layout-grid-CQpoeATE.js",
+        "assets/list-CaXmDrLH.js",
+        "assets/message-square-YxBgTVI-.js",
+        "assets/messages-square-CJUkr_Q4.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/mic-off-DEDJwA2O.js",
+        "assets/palette-Cwrmr-lk.js",
+        "assets/pencil-CJQcj41x.js",
+        "assets/pin-PIXxiJKQ.js",
+        "assets/play-iiNeVn2L.js",
+        "assets/Popover-CjM8FWoH.js",
+        "assets/puzzle-BcAWs5ON.js",
+        "assets/refresh-cw-C0urgXmS.js",
+        "assets/rotate-ccw-clock-ReCupAs4.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/rows-2-CyGmAsF3.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/send-Bl8szYbE.js",
+        "assets/settings-4DLcM1v7.js",
+        "assets/sliders-horizontal-BZsD-Kao.js",
+        "assets/smartphone-C0jDOuKk.js",
+        "assets/square-pen-BWl4Os_L.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/trash-2-BoDrCofr.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/undo-2-C8Ku10XQ.js",
+        "assets/usePointerDrag-DjRo37fZ.js",
+        "assets/user-plus-Dwo0_Jev.js",
+        "assets/users-DXo4fiY4.js",
+        "assets/wand-sparkles-CAwyskWk.js"
+      ],
+      "javascript": {
+        "bytes": 65225,
+        "gzipBytes": 30696
+      },
+      "css": {
+        "bytes": 7785,
+        "gzipBytes": 1814
+      },
+      "totalBytes": 73010
+    },
+    {
+      "entry": "src/components/bridge/orbRenderer.ts",
+      "files": [
+        "assets/BridgeOrb-DaI4-RPG.js",
+        "assets/orbRenderer-DwCRbj9h.js"
+      ],
+      "javascript": {
+        "bytes": 22643,
+        "gzipBytes": 9016
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 22643
+    },
+    {
+      "entry": "src/components/browser/AppBrowserSidebar.tsx",
+      "files": [
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/AppBrowserSidebar-BWSbA8Zv.css",
+        "assets/AppBrowserSidebar-CSY-kGvc.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/file-CTFx8VP7.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/layout-grid-CQpoeATE.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/list-todo-BuJQzUDS.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/minimize-2-D6nLzL9J.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/smartphone-C0jDOuKk.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/usePointerDrag-DjRo37fZ.js"
+      ],
+      "javascript": {
+        "bytes": 152059,
+        "gzipBytes": 53719
+      },
+      "css": {
+        "bytes": 24803,
+        "gzipBytes": 4171
+      },
+      "totalBytes": 176862
+    },
+    {
+      "entry": "src/components/chat/ChatPane.tsx",
+      "files": [
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/brain-DxxjPEl6.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/chat-thread-DcHyvN0y.js",
+        "assets/chat-thread-LgIDmM5a.css",
+        "assets/ChatPane-BLA6HaV6.js",
+        "assets/ChatPane-RyomxIB7.css",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/chevrons-up-down-CJZ19esu.js",
+        "assets/circle-alert-B6Purx7S.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/clipboardPaste-BGmmOiqv.js",
+        "assets/copy-CWLsruk3.js",
+        "assets/dictationShortcut-DxVbd2dM.js",
+        "assets/dictationShortcuts-CWCYVsaQ.js",
+        "assets/EffortPicker-BaPhMv37.js",
+        "assets/EffortPicker-CV2jWdGD.css",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/eye-DoR05zJU.js",
+        "assets/file-CTFx8VP7.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/folder-plus-guuM2g9p.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/hand-CeVVtKcP.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/message-square-YxBgTVI-.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/pdf.worker.min-Dswkl-cV.mjs",
+        "assets/pencil-CJQcj41x.js",
+        "assets/pointerDropTargets-D2Xnxdg8.js",
+        "assets/promptDropTargets-BknDNzcK.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/SafeMarkdown-CgpP42mK.css",
+        "assets/SafeMarkdown-DmkgIIFr.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/sideFiles-uDrtBuA1.js",
+        "assets/sliders-horizontal-BZsD-Kao.js",
+        "assets/square-ChYa7EXU.js",
+        "assets/square-pen-BWl4Os_L.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/ssh-workspace-BpU-Xv_s.css",
+        "assets/taskDrop-CW31KPjo.css",
+        "assets/taskDropTargets-ChOsHc1x.js",
+        "assets/taskHandoff-q7WaH2yb.js",
+        "assets/terminalEscapes-B4VIGGLL.js",
+        "assets/thread-grid-DRVElEeT.css",
+        "assets/thread-grid-VRnys_TU.js",
+        "assets/time-7Em5aelp.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/UnifiedDiffView-BSuceDK4.js",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/workspaceChanges-v4GApiEa.js",
+        "assets/wrench-B01UWpds.js",
+        "assets/zap-L7jU4UrA.js"
+      ],
+      "javascript": {
+        "bytes": 185338,
+        "gzipBytes": 72337
+      },
+      "css": {
+        "bytes": 61101,
+        "gzipBytes": 13209
+      },
+      "totalBytes": 1512209
+    },
+    {
+      "entry": "src/components/chat/ChatRail.tsx",
+      "files": [
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/archive-Cr7x0VXA.js",
+        "assets/ArchivedChatsDialog-C4oYuThE.js",
+        "assets/arrow-down-bUQhI1OP.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/ChatRail-T336Itzd.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/contextMenu-B4B7zGOw.js",
+        "assets/copy-CWLsruk3.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/folder-open-CR6h-6Ms.js",
+        "assets/folder-plus-guuM2g9p.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/MiddleTruncate-DHGHuUmu.js",
+        "assets/pencil-CJQcj41x.js",
+        "assets/pin-PIXxiJKQ.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/Sheet-CkYVFqAN.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/thread-grid-DRVElEeT.css",
+        "assets/thread-grid-VRnys_TU.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/trash-2-BoDrCofr.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/usePointerDrag-DjRo37fZ.js",
+        "assets/useRailMenu-DLKqKSCA.js",
+        "assets/WorkspaceRoster-C1yfJ7Ri.js"
+      ],
+      "javascript": {
+        "bytes": 75597,
+        "gzipBytes": 31387
+      },
+      "css": {
+        "bytes": 4237,
+        "gzipBytes": 1191
+      },
+      "totalBytes": 79834
+    },
+    {
+      "entry": "src/components/chat/TranscriptSearch.tsx",
+      "files": [
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/TranscriptSearch-BlEJHmPH.css",
+        "assets/transcriptSearch-DaAgA3mX.js",
+        "assets/TranscriptSearch-DZcTbhTX.js",
+        "assets/ui-GeFeEgKA.js"
+      ],
+      "javascript": {
+        "bytes": 13535,
+        "gzipBytes": 5885
+      },
+      "css": {
+        "bytes": 868,
+        "gzipBytes": 364
+      },
+      "totalBytes": 14403
+    },
+    {
+      "entry": "src/components/chat/TranscriptSearchSurface.tsx",
+      "files": [
+        "assets/TranscriptSearchSurface-B-e53IV1.js",
+        "assets/TranscriptSearchSurface-CdMPRv2g.css"
+      ],
+      "javascript": {
+        "bytes": 2500,
+        "gzipBytes": 1253
+      },
+      "css": {
+        "bytes": 475,
+        "gzipBytes": 260
+      },
+      "totalBytes": 2975
+    },
+    {
+      "entry": "src/components/chat/chatAttachmentFiles.ts",
+      "files": [
+        "assets/chatAttachmentFiles-B9uozJ6j.js"
+      ],
+      "javascript": {
+        "bytes": 842,
+        "gzipBytes": 531
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 842
+    },
+    {
+      "entry": "src/components/chat/inspector/pdfAssets.ts",
+      "files": [
+        "assets/Adobe-CNS1-UCS2-fO900upv.bcmap",
+        "assets/Adobe-GB1-UCS2-BA083yIo.bcmap",
+        "assets/Adobe-Japan1-UCS2-BL-4M2vS.bcmap",
+        "assets/Adobe-Korea1-UCS2-BEQZuOdo.bcmap",
+        "assets/ETHK-B5-H-1MLb5v9x.bcmap",
+        "assets/FoxitDingbats-BaQLufoW.pfb",
+        "assets/FoxitFixed-Dyd5Nipw.pfb",
+        "assets/FoxitFixedBold-D5TuYRwj.pfb",
+        "assets/FoxitFixedBoldItalic-BqlXQ_Yv.pfb",
+        "assets/FoxitFixedItalic-DqjQkmbS.pfb",
+        "assets/FoxitSerif-qbgiDIe-.pfb",
+        "assets/FoxitSerifBold-DZZ4CclT.pfb",
+        "assets/FoxitSerifBoldItalic-DSQtwd_X.pfb",
+        "assets/FoxitSerifItalic-CQs5lx9Y.pfb",
+        "assets/FoxitSymbol-BVtbc20u.pfb",
+        "assets/GBK-EUC-H-CAORqCkf.bcmap",
+        "assets/GBK2K-H-Cv55KPk8.bcmap",
+        "assets/GBKp-EUC-H-CElrnV5g.bcmap",
+        "assets/GBT-EUC-H-BTsQIL1M.bcmap",
+        "assets/GBT-H-DL9h-WkS.bcmap",
+        "assets/GBTpc-EUC-H-DnIh5WJ3.bcmap",
+        "assets/HKscs-B5-H-CXbBbq6g.bcmap",
+        "assets/KSC-Johab-H-CGtV3MPT.bcmap",
+        "assets/LiberationSans-Bold-BPt4bU5Z.ttf",
+        "assets/LiberationSans-BoldItalic-Bj53-jFw.ttf",
+        "assets/LiberationSans-Italic-5QhGB3P9.ttf",
+        "assets/LiberationSans-Regular-cbskN6YR.ttf",
+        "assets/pdfAssets-SdgNUsjy.js",
+        "assets/UniCNS-UCS2-H-DWzv8UhH.bcmap",
+        "assets/UniCNS-UTF16-H-Bw0JKgCq.bcmap",
+        "assets/UniCNS-UTF32-H-IE_GrH2i.bcmap",
+        "assets/UniCNS-UTF8-H-BbLcFh6Q.bcmap",
+        "assets/UniGB-UCS2-H-D7xzRvZN.bcmap",
+        "assets/UniGB-UTF16-H-DKjbEwc0.bcmap",
+        "assets/UniGB-UTF32-H-Behfouj5.bcmap",
+        "assets/UniGB-UTF8-H-EROft1ro.bcmap",
+        "assets/UniJIS-UCS2-H-2DbZ0MaQ.bcmap",
+        "assets/UniJIS-UTF16-H-BlDDPdCK.bcmap",
+        "assets/UniJIS-UTF32-H-BIQPWkjv.bcmap",
+        "assets/UniJIS-UTF8-H-CGusholx.bcmap",
+        "assets/UniJIS2004-UTF16-H-KXixH-HI.bcmap",
+        "assets/UniJIS2004-UTF32-H-CXrD-9YE.bcmap",
+        "assets/UniJIS2004-UTF8-H-BkOctZjn.bcmap",
+        "assets/UniJISX0213-UTF32-H-BavAhZjb.bcmap",
+        "assets/UniJISX02132004-UTF32-H-DAH-AgUq.bcmap",
+        "assets/UniKS-UCS2-H-YeUc7k1L.bcmap",
+        "assets/UniKS-UTF16-H-B0dvB-Td.bcmap",
+        "assets/UniKS-UTF32-H-olR_LtmR.bcmap",
+        "assets/UniKS-UTF8-H-CbpebD-y.bcmap"
+      ],
+      "javascript": {
+        "bytes": 135399,
+        "gzipBytes": 49133
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 1987269
+    },
+    {
+      "entry": "src/components/chat/inspector/pdfEngine.ts",
+      "files": [
+        "assets/pdfEngine-C0ik9vlB.js"
+      ],
+      "javascript": {
+        "bytes": 461123,
+        "gzipBytes": 135026
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 461123
+    },
+    {
+      "entry": "src/components/entitlements/FeatureLock.tsx",
+      "files": [
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/FeatureLock-_ddjHXcn.css",
+        "assets/FeatureLock-BxEngQaI.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/Popover-CjM8FWoH.js"
+      ],
+      "javascript": {
+        "bytes": 5103,
+        "gzipBytes": 2534
+      },
+      "css": {
+        "bytes": 688,
+        "gzipBytes": 331
+      },
+      "totalBytes": 5791
+    },
+    {
+      "entry": "src/components/files/SidePanelFileView.tsx",
+      "files": [
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/AppBrowserSidebar-BWSbA8Zv.css",
+        "assets/AppBrowserSidebar-CSY-kGvc.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/file-CTFx8VP7.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/files-ChxbXQPh.js",
+        "assets/FilesCodeView-19d53CxL.js",
+        "assets/FilesCodeView-BZECMaY_.css",
+        "assets/folder-BgZWBheW.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/layout-grid-CQpoeATE.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/list-todo-BuJQzUDS.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/MiddleTruncate-DHGHuUmu.js",
+        "assets/minimize-2-D6nLzL9J.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/SidePanelFileView-28Nf43TL.css",
+        "assets/SidePanelFileView-ZbauD0K1.js",
+        "assets/smartphone-C0jDOuKk.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/usePointerDrag-DjRo37fZ.js"
+      ],
+      "javascript": {
+        "bytes": 194966,
+        "gzipBytes": 69191
+      },
+      "css": {
+        "bytes": 38039,
+        "gzipBytes": 7437
+      },
+      "totalBytes": 233005
+    },
+    {
+      "entry": "src/components/launchConstellation.ts",
+      "files": [
+        "assets/launchConstellation-QJwL_8bG.js"
+      ],
+      "javascript": {
+        "bytes": 3718,
+        "gzipBytes": 1862
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 3718
+    },
+    {
+      "entry": "src/components/notifications/ApplicationSettings.tsx",
+      "files": [
+        "assets/agentMessaging-CMHMMnK9.js",
+        "assets/agentResume-CFivpW-c.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/ApplicationSettings-DzgLZ3qN.js",
+        "assets/ApplicationSettings-ZBe5KYlv.css",
+        "assets/arrow-down-to-line-_dR5nPAe.js",
+        "assets/bell-DTnHIh6A.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/claudeAccounts-BRdm4CQ0.js",
+        "assets/codexAccounts-wNMyI_X2.js",
+        "assets/ConfirmSheet-DBzk_7C1.js",
+        "assets/destinations-CgL7jO-l.css",
+        "assets/ellipsis-DyxUY2iZ.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/filesAutoSavePreference-I4tzblQy.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/palette-Cwrmr-lk.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/puzzle-BcAWs5ON.js",
+        "assets/refresh-cw-C0urgXmS.js",
+        "assets/remote-CDyNhTn5.js",
+        "assets/RemoteApprovalBanners-B6sKhmQt.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/settings-4DLcM1v7.js",
+        "assets/settings-page-RnV_eRBL.css",
+        "assets/settings-page-VeaN-RNO.js",
+        "assets/SettingsControls-Cc7Hj9MQ.js",
+        "assets/Sheet-CkYVFqAN.js",
+        "assets/smartphone-C0jDOuKk.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/sun-CPSV-q5d.js",
+        "assets/terminalHost-naZxxOML.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/themeCatalog-IozZnSrt.js",
+        "assets/time-7Em5aelp.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/users-DXo4fiY4.js"
+      ],
+      "javascript": {
+        "bytes": 157894,
+        "gzipBytes": 58952
+      },
+      "css": {
+        "bytes": 27648,
+        "gzipBytes": 6558
+      },
+      "totalBytes": 185542
+    },
+    {
+      "entry": "src/components/notifications/NotificationBell.tsx",
+      "files": [
+        "assets/bell-DTnHIh6A.js",
+        "assets/NotificationBell-DmGeue8h.js"
+      ],
+      "javascript": {
+        "bytes": 1786,
+        "gzipBytes": 1037
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 1786
+    },
+    {
+      "entry": "src/components/notifications/NotificationCenter.tsx",
+      "files": [
+        "assets/bell-DTnHIh6A.js",
+        "assets/circle-alert-B6Purx7S.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/hand-CeVVtKcP.js",
+        "assets/NotificationCenter-Caq6wscQ.css",
+        "assets/NotificationCenter-CExfPp6w.js",
+        "assets/Popover-CjM8FWoH.js",
+        "assets/settings-4DLcM1v7.js"
+      ],
+      "javascript": {
+        "bytes": 9567,
+        "gzipBytes": 4539
+      },
+      "css": {
+        "bytes": 4061,
+        "gzipBytes": 1061
+      },
+      "totalBytes": 13628
+    },
+    {
+      "entry": "src/components/plugins/PluginsPane.tsx",
+      "files": [
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/bug-5QWBuJ4L.js",
+        "assets/destinations-CgL7jO-l.css",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/plugins-C_sAUJ3j.js",
+        "assets/PluginsPane-DyVSaBtG.js",
+        "assets/puzzle-BcAWs5ON.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/send-Bl8szYbE.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/usePluginConnections-Dh4I1RlD.js"
+      ],
+      "javascript": {
+        "bytes": 31256,
+        "gzipBytes": 12339
+      },
+      "css": {
+        "bytes": 9228,
+        "gzipBytes": 2157
+      },
+      "totalBytes": 40484
+    },
+    {
+      "entry": "src/components/prompts/PromptLibraryPane.tsx",
+      "files": [
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/PromptLibraryPane-DBFzQcsy.css",
+        "assets/PromptLibraryPane-DZG_S-ZF.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js"
+      ],
+      "javascript": {
+        "bytes": 13811,
+        "gzipBytes": 5593
+      },
+      "css": {
+        "bytes": 905,
+        "gzipBytes": 369
+      },
+      "totalBytes": 14716
+    },
+    {
+      "entry": "src/components/prompts/PromptLibrarySurface.tsx",
+      "files": [
+        "assets/PromptLibrarySurface-Nj0qKnJ8.js",
+        "assets/TranscriptSearchSurface-CdMPRv2g.css"
+      ],
+      "javascript": {
+        "bytes": 2465,
+        "gzipBytes": 1251
+      },
+      "css": {
+        "bytes": 475,
+        "gzipBytes": 260
+      },
+      "totalBytes": 2940
+    },
+    {
+      "entry": "src/components/prompts/SidePromptsPanel.tsx",
+      "files": [
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/AppBrowserSidebar-BWSbA8Zv.css",
+        "assets/AppBrowserSidebar-CSY-kGvc.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/chevron-left-BgzfvVf9.js",
+        "assets/ConfirmSheet-DBzk_7C1.js",
+        "assets/copy-CWLsruk3.js",
+        "assets/corner-down-left-BbE-RcRw.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/file-CTFx8VP7.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/layout-grid-CQpoeATE.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/list-todo-BuJQzUDS.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/minimize-2-D6nLzL9J.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/pointerDropTargets-D2Xnxdg8.js",
+        "assets/promptDropTargets-BknDNzcK.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/Sheet-CkYVFqAN.js",
+        "assets/SidePromptsPanel-CIxSCxGa.css",
+        "assets/SidePromptsPanel-DBJ3U0eK.js",
+        "assets/smartphone-C0jDOuKk.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/submissionPlan-1ebKu05b.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/usePointerDrag-DjRo37fZ.js"
+      ],
+      "javascript": {
+        "bytes": 170538,
+        "gzipBytes": 62192
+      },
+      "css": {
+        "bytes": 29839,
+        "gzipBytes": 5539
+      },
+      "totalBytes": 200377
+    },
+    {
+      "entry": "src/components/routines/RoutinesPane.tsx",
+      "files": [
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/circle-alert-B6Purx7S.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/clock-3-DcGi4IAM.js",
+        "assets/destinations-CgL7jO-l.css",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/pencil-CJQcj41x.js",
+        "assets/play-iiNeVn2L.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/routines-DNvqPiUM.js",
+        "assets/RoutinesPane-ClcXGiQU.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/trash-2-BoDrCofr.js",
+        "assets/ui-GeFeEgKA.js"
+      ],
+      "javascript": {
+        "bytes": 52577,
+        "gzipBytes": 20914
+      },
+      "css": {
+        "bytes": 16486,
+        "gzipBytes": 3824
+      },
+      "totalBytes": 69063
+    },
+    {
+      "entry": "src/components/settings/ChangelogSettings.tsx",
+      "files": [
+        "assets/arrow-down-to-line-_dR5nPAe.js",
+        "assets/bell-DTnHIh6A.js",
+        "assets/ChangelogSettings-BQNRejTK.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/minus-rA8iI851.js",
+        "assets/palette-Cwrmr-lk.js",
+        "assets/puzzle-BcAWs5ON.js",
+        "assets/settings-4DLcM1v7.js",
+        "assets/settings-page-RnV_eRBL.css",
+        "assets/settings-page-VeaN-RNO.js",
+        "assets/SettingsControls-Cc7Hj9MQ.js",
+        "assets/shield-check-C4-MUqmt.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/users-DXo4fiY4.js",
+        "assets/WhatsNewDialog-9JQkFGUC.css",
+        "assets/WhatsNewDialog-DtSAeaPK.js",
+        "assets/wrench-B01UWpds.js"
+      ],
+      "javascript": {
+        "bytes": 152953,
+        "gzipBytes": 55956
+      },
+      "css": {
+        "bytes": 15640,
+        "gzipBytes": 3630
+      },
+      "totalBytes": 168593
+    },
+    {
+      "entry": "src/components/settings/DiscordPresenceSettings.tsx",
+      "files": [
+        "assets/arrow-down-to-line-_dR5nPAe.js",
+        "assets/bell-DTnHIh6A.js",
+        "assets/DiscordPresenceSettings-CgbQywKx.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/palette-Cwrmr-lk.js",
+        "assets/puzzle-BcAWs5ON.js",
+        "assets/settings-4DLcM1v7.js",
+        "assets/settings-page-RnV_eRBL.css",
+        "assets/settings-page-VeaN-RNO.js",
+        "assets/SettingsControls-Cc7Hj9MQ.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/users-DXo4fiY4.js"
+      ],
+      "javascript": {
+        "bytes": 22265,
+        "gzipBytes": 10369
+      },
+      "css": {
+        "bytes": 6924,
+        "gzipBytes": 1545
+      },
+      "totalBytes": 29189
+    },
+    {
+      "entry": "src/components/settings/ImportSettings.tsx",
+      "files": [
+        "assets/arrow-down-to-line-_dR5nPAe.js",
+        "assets/bell-DTnHIh6A.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/calendar-clock-BNkBvV0D.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/claudeAccounts-BRdm4CQ0.js",
+        "assets/codexAccounts-wNMyI_X2.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/folder-open-CR6h-6Ms.js",
+        "assets/ImportSettings-BF0dPOeG.js",
+        "assets/ImportSettings-D6dqntiu.css",
+        "assets/legacyImport-DS2Zr4QY.js",
+        "assets/macMigrationRuntime-B4ftCSPk.js",
+        "assets/messages-square-CJUkr_Q4.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/palette-Cwrmr-lk.js",
+        "assets/puzzle-BcAWs5ON.js",
+        "assets/settings-4DLcM1v7.js",
+        "assets/settings-page-RnV_eRBL.css",
+        "assets/settings-page-VeaN-RNO.js",
+        "assets/SettingsControls-Cc7Hj9MQ.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/users-DXo4fiY4.js"
+      ],
+      "javascript": {
+        "bytes": 59770,
+        "gzipBytes": 25614
+      },
+      "css": {
+        "bytes": 9029,
+        "gzipBytes": 2234
+      },
+      "totalBytes": 68799
+    },
+    {
+      "entry": "src/components/settings/SettingsSidebar.tsx",
+      "files": [
+        "assets/arrow-down-to-line-_dR5nPAe.js",
+        "assets/bell-DTnHIh6A.js",
+        "assets/chevron-left-BgzfvVf9.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/palette-Cwrmr-lk.js",
+        "assets/puzzle-BcAWs5ON.js",
+        "assets/settings-4DLcM1v7.js",
+        "assets/settings-page-RnV_eRBL.css",
+        "assets/settings-page-VeaN-RNO.js",
+        "assets/SettingsSidebar-D01PTZcT.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/users-DXo4fiY4.js"
+      ],
+      "javascript": {
+        "bytes": 9922,
+        "gzipBytes": 5321
+      },
+      "css": {
+        "bytes": 6924,
+        "gzipBytes": 1545
+      },
+      "totalBytes": 16846
+    },
+    {
+      "entry": "src/components/settings/VoiceSettings.tsx",
+      "files": [
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/arrow-down-to-line-_dR5nPAe.js",
+        "assets/bell-DTnHIh6A.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/dictation-CK6_K-l6.js",
+        "assets/dictationShortcut-DxVbd2dM.js",
+        "assets/dictationShortcuts-CWCYVsaQ.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/palette-Cwrmr-lk.js",
+        "assets/puzzle-BcAWs5ON.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/settings-4DLcM1v7.js",
+        "assets/settings-page-RnV_eRBL.css",
+        "assets/settings-page-VeaN-RNO.js",
+        "assets/SettingsControls-Cc7Hj9MQ.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/users-DXo4fiY4.js",
+        "assets/VoiceSettings-B0k83JQd.js"
+      ],
+      "javascript": {
+        "bytes": 55283,
+        "gzipBytes": 23575
+      },
+      "css": {
+        "bytes": 14182,
+        "gzipBytes": 3212
+      },
+      "totalBytes": 69465
+    },
+    {
+      "entry": "src/components/sideFiles/SideFilesPanel.tsx",
+      "files": [
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/AppBrowserSidebar-BWSbA8Zv.css",
+        "assets/AppBrowserSidebar-CSY-kGvc.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/circle-alert-B6Purx7S.js",
+        "assets/circle-arrow-down-CcjBcknJ.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/ConfirmSheet-DBzk_7C1.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/file-CTFx8VP7.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/files-ChxbXQPh.js",
+        "assets/filesAutoSavePreference-I4tzblQy.js",
+        "assets/FilesCodeView-19d53CxL.js",
+        "assets/FilesCodeView-BZECMaY_.css",
+        "assets/folder-BgZWBheW.js",
+        "assets/folder-open-CR6h-6Ms.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/layout-grid-CQpoeATE.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/list-todo-BuJQzUDS.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/minimize-2-D6nLzL9J.js",
+        "assets/minus-rA8iI851.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/pointerDropTargets-D2Xnxdg8.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/Sheet-CkYVFqAN.js",
+        "assets/sideFiles-uDrtBuA1.js",
+        "assets/SideFilesPanel-B2ExOrLd.css",
+        "assets/SideFilesPanel-BpsADTwA.js",
+        "assets/sideFilesPreference-Du3NyMmh.js",
+        "assets/smartphone-C0jDOuKk.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/undo-2-C8Ku10XQ.js",
+        "assets/UnifiedDiffView-BSuceDK4.js",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/usePointerDrag-DjRo37fZ.js",
+        "assets/workspaceChanges-v4GApiEa.js"
+      ],
+      "javascript": {
+        "bytes": 262030,
+        "gzipBytes": 93842
+      },
+      "css": {
+        "bytes": 43889,
+        "gzipBytes": 8771
+      },
+      "totalBytes": 305919
+    },
+    {
+      "entry": "src/components/sidePanelApps/BombSprintApp.tsx",
+      "files": [
+        "assets/appDocument-CIFSERuy.js",
+        "assets/appFinishNotice-CtJZfo7S.js",
+        "assets/bomb-beep-high-BxeXnAU3.wav",
+        "assets/bomb-beep-low-ns2A7qkm.wav",
+        "assets/bomb-explode-ssLA8GMc.wav",
+        "assets/bomb-ignite-Bb0INyFm.wav",
+        "assets/BombSprintApp-5b1SNNzf.js",
+        "assets/BombSprintApp-CAQm6Hdq.css",
+        "assets/bombSprintStore-Cqoaz7fB.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/pause-BZnPM8i-.js",
+        "assets/play-iiNeVn2L.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/useCountdownTick-Bx8TXmS5.js",
+        "assets/volume-x-DCzHHLyg.js"
+      ],
+      "javascript": {
+        "bytes": 55422,
+        "gzipBytes": 22184
+      },
+      "css": {
+        "bytes": 8835,
+        "gzipBytes": 2102
+      },
+      "totalBytes": 396947
+    },
+    {
+      "entry": "src/components/sidePanelApps/FocusTimerApp.tsx",
+      "files": [
+        "assets/appDocument-CIFSERuy.js",
+        "assets/appFinishNotice-CtJZfo7S.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/FocusTimerApp-B0WG_YSx.js",
+        "assets/FocusTimerApp-BYHF-QvG.css",
+        "assets/focusTimerStore-DrYuvxeW.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/pause-BZnPM8i-.js",
+        "assets/play-iiNeVn2L.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/useCountdownTick-Bx8TXmS5.js"
+      ],
+      "javascript": {
+        "bytes": 27541,
+        "gzipBytes": 11735
+      },
+      "css": {
+        "bytes": 3233,
+        "gzipBytes": 897
+      },
+      "totalBytes": 30774
+    },
+    {
+      "entry": "src/components/sidePanelApps/ScratchpadApp.tsx",
+      "files": [
+        "assets/appDocument-CIFSERuy.js",
+        "assets/ScratchpadApp-C1ygjbyn.js",
+        "assets/ScratchpadApp-DM2zCy8v.css",
+        "assets/scratchpadStore-Zbx1pFwq.js"
+      ],
+      "javascript": {
+        "bytes": 399786,
+        "gzipBytes": 125857
+      },
+      "css": {
+        "bytes": 1234,
+        "gzipBytes": 474
+      },
+      "totalBytes": 401020
+    },
+    {
+      "entry": "src/components/sidePanelApps/SidePanelAppHost.tsx",
+      "files": [
+        "assets/SidePanelAppHost-Bo6qXQgc.css",
+        "assets/SidePanelAppHost-DuGdOGxm.js"
+      ],
+      "javascript": {
+        "bytes": 6140,
+        "gzipBytes": 2666
+      },
+      "css": {
+        "bytes": 221,
+        "gzipBytes": 165
+      },
+      "totalBytes": 6361
+    },
+    {
+      "entry": "src/components/sidePanelApps/SidePanelAppPillStatus.tsx",
+      "files": [
+        "assets/appDocument-CIFSERuy.js",
+        "assets/appFinishNotice-CtJZfo7S.js",
+        "assets/bombSprintStore-Cqoaz7fB.js",
+        "assets/campus-DtZNY3SQ.js",
+        "assets/focusTimerStore-DrYuvxeW.js",
+        "assets/SidePanelAppPillStatus-CoACe78H.js",
+        "assets/useCountdownTick-Bx8TXmS5.js"
+      ],
+      "javascript": {
+        "bytes": 24867,
+        "gzipBytes": 10301
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 24867
+    },
+    {
+      "entry": "src/components/sidePanelApps/bridgeVerse/BridgeVerseApp.tsx",
+      "files": [
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/AppBrowserSidebar-BWSbA8Zv.css",
+        "assets/AppBrowserSidebar-CSY-kGvc.js",
+        "assets/appDocument-CIFSERuy.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/BridgeVerseApp-CDFB_JQg.css",
+        "assets/BridgeVerseApp-eRVLsj_3.js",
+        "assets/bridgeVerseRules-BwPox_6X.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/campus-DtZNY3SQ.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/circle-stop-JvgRRZVz.js",
+        "assets/dices-fSRTHzFb.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/eye-DoR05zJU.js",
+        "assets/file-CTFx8VP7.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/hand-CeVVtKcP.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/layout-grid-CQpoeATE.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/list-todo-BuJQzUDS.js",
+        "assets/liveBridgeChatActions-KMUjCXCe.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/look-BL34pHFM.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/mic-off-DEDJwA2O.js",
+        "assets/minimize-2-D6nLzL9J.js",
+        "assets/minus-rA8iI851.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/progress-CrwOFKcn.js",
+        "assets/promptDelivery-D4au0jIx.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/smartphone-C0jDOuKk.js",
+        "assets/sound-DL26ePu9.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/submissionPlan-1ebKu05b.js",
+        "assets/submissionProbe-RdSaUMT1.js",
+        "assets/terminalEscapes-B4VIGGLL.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/terminalScrollbackRegistry-uD3C_F34.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/transcriptSearch-DaAgA3mX.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/usePointerDrag-DjRo37fZ.js",
+        "assets/user-plus-Dwo0_Jev.js",
+        "assets/users-DXo4fiY4.js",
+        "assets/volume-x-DCzHHLyg.js"
+      ],
+      "javascript": {
+        "bytes": 420371,
+        "gzipBytes": 148113
+      },
+      "css": {
+        "bytes": 117313,
+        "gzipBytes": 20834
+      },
+      "totalBytes": 537684
+    },
+    {
+      "entry": "src/components/sidePanelApps/bridgeVerse/BridgeVerseTerminal.tsx",
+      "files": [
+        "assets/agentResume-CFivpW-c.js",
+        "assets/agentResumeSignals-Bf3qmKXe.js",
+        "assets/bridgePaneRegistry-pVPcFj8s.js",
+        "assets/BridgeVerseTerminal-D3F7tbZB.js",
+        "assets/clipboardPaste-BGmmOiqv.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/pointerDropTargets-D2Xnxdg8.js",
+        "assets/promptDropTargets-BknDNzcK.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/sideFiles-uDrtBuA1.js",
+        "assets/taskDropTargets-ChOsHc1x.js",
+        "assets/terminalFontSize-CgzV6TQr.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/terminalScrollbackRegistry-uD3C_F34.js",
+        "assets/themeCatalog-IozZnSrt.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/XtermSurface-BY9A3xe3.css",
+        "assets/XtermSurface-XN6pwfrP.js"
+      ],
+      "javascript": {
+        "bytes": 458635,
+        "gzipBytes": 129810
+      },
+      "css": {
+        "bytes": 6674,
+        "gzipBytes": 1676
+      },
+      "totalBytes": 465309
+    },
+    {
+      "entry": "src/components/sidePanelApps/bridgeVerse/SoundMenu.tsx",
+      "files": [
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/AppBrowserSidebar-BWSbA8Zv.css",
+        "assets/AppBrowserSidebar-CSY-kGvc.js",
+        "assets/appDocument-CIFSERuy.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/BridgeVerseApp-CDFB_JQg.css",
+        "assets/BridgeVerseApp-eRVLsj_3.js",
+        "assets/bridgeVerseRules-BwPox_6X.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/campus-DtZNY3SQ.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/circle-stop-JvgRRZVz.js",
+        "assets/dices-fSRTHzFb.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/eye-DoR05zJU.js",
+        "assets/file-CTFx8VP7.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/hand-CeVVtKcP.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/layout-grid-CQpoeATE.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/list-todo-BuJQzUDS.js",
+        "assets/liveBridgeChatActions-KMUjCXCe.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/look-BL34pHFM.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/mic-off-DEDJwA2O.js",
+        "assets/minimize-2-D6nLzL9J.js",
+        "assets/minus-rA8iI851.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/progress-CrwOFKcn.js",
+        "assets/promptDelivery-D4au0jIx.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/smartphone-C0jDOuKk.js",
+        "assets/sound-DL26ePu9.js",
+        "assets/SoundMenu-BaQCif-6.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/submissionPlan-1ebKu05b.js",
+        "assets/submissionProbe-RdSaUMT1.js",
+        "assets/terminalEscapes-B4VIGGLL.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/terminalScrollbackRegistry-uD3C_F34.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/transcriptSearch-DaAgA3mX.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/usePointerDrag-DjRo37fZ.js",
+        "assets/user-plus-Dwo0_Jev.js",
+        "assets/users-DXo4fiY4.js",
+        "assets/volume-x-DCzHHLyg.js"
+      ],
+      "javascript": {
+        "bytes": 424992,
+        "gzipBytes": 150171
+      },
+      "css": {
+        "bytes": 117313,
+        "gzipBytes": 20834
+      },
+      "totalBytes": 542305
+    },
+    {
+      "entry": "src/components/sidePanelApps/bridgeVerse/arcade/index.ts",
+      "files": [
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/AppBrowserSidebar-BWSbA8Zv.css",
+        "assets/AppBrowserSidebar-CSY-kGvc.js",
+        "assets/appDocument-CIFSERuy.js",
+        "assets/arcade-BGzE-oLC.css",
+        "assets/arcade-C9telpDu.js",
+        "assets/arcadeArt-CE1rGMQx.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/BridgeVerseApp-CDFB_JQg.css",
+        "assets/BridgeVerseApp-eRVLsj_3.js",
+        "assets/bridgeVerseRules-BwPox_6X.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/bug-5QWBuJ4L.js",
+        "assets/campus-DtZNY3SQ.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/circle-stop-JvgRRZVz.js",
+        "assets/dices-fSRTHzFb.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/eye-DoR05zJU.js",
+        "assets/file-CTFx8VP7.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/hand-CeVVtKcP.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/layout-grid-CQpoeATE.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/list-todo-BuJQzUDS.js",
+        "assets/liveBridgeChatActions-KMUjCXCe.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/look-BL34pHFM.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/mic-off-DEDJwA2O.js",
+        "assets/minimize-2-D6nLzL9J.js",
+        "assets/minus-rA8iI851.js",
+        "assets/pause-BZnPM8i-.js",
+        "assets/play-iiNeVn2L.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/progress-CrwOFKcn.js",
+        "assets/promptDelivery-D4au0jIx.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/smartphone-C0jDOuKk.js",
+        "assets/sound-DL26ePu9.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/submissionPlan-1ebKu05b.js",
+        "assets/submissionProbe-RdSaUMT1.js",
+        "assets/terminalEscapes-B4VIGGLL.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/terminalScrollbackRegistry-uD3C_F34.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/transcriptSearch-DaAgA3mX.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/usePointerDrag-DjRo37fZ.js",
+        "assets/user-plus-Dwo0_Jev.js",
+        "assets/users-DXo4fiY4.js",
+        "assets/volume-x-DCzHHLyg.js"
+      ],
+      "javascript": {
+        "bytes": 488656,
+        "gzipBytes": 173171
+      },
+      "css": {
+        "bytes": 132036,
+        "gzipBytes": 23889
+      },
+      "totalBytes": 620692
+    },
+    {
+      "entry": "src/components/sidePanelApps/bridgeVerse/audio/index.ts",
+      "files": [
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/AppBrowserSidebar-BWSbA8Zv.css",
+        "assets/AppBrowserSidebar-CSY-kGvc.js",
+        "assets/appDocument-CIFSERuy.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/audio-BWNd-na0.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/BridgeVerseApp-CDFB_JQg.css",
+        "assets/BridgeVerseApp-eRVLsj_3.js",
+        "assets/bridgeVerseRules-BwPox_6X.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/campus-DtZNY3SQ.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/circle-stop-JvgRRZVz.js",
+        "assets/dices-fSRTHzFb.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/eye-DoR05zJU.js",
+        "assets/file-CTFx8VP7.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/hand-CeVVtKcP.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/layout-grid-CQpoeATE.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/list-todo-BuJQzUDS.js",
+        "assets/liveBridgeChatActions-KMUjCXCe.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/look-BL34pHFM.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/mic-off-DEDJwA2O.js",
+        "assets/minimize-2-D6nLzL9J.js",
+        "assets/minus-rA8iI851.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/progress-CrwOFKcn.js",
+        "assets/promptDelivery-D4au0jIx.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/smartphone-C0jDOuKk.js",
+        "assets/sound-DL26ePu9.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/submissionPlan-1ebKu05b.js",
+        "assets/submissionProbe-RdSaUMT1.js",
+        "assets/terminalEscapes-B4VIGGLL.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/terminalScrollbackRegistry-uD3C_F34.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/transcriptSearch-DaAgA3mX.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/usePointerDrag-DjRo37fZ.js",
+        "assets/user-plus-Dwo0_Jev.js",
+        "assets/users-DXo4fiY4.js",
+        "assets/volume-x-DCzHHLyg.js"
+      ],
+      "javascript": {
+        "bytes": 523288,
+        "gzipBytes": 180397
+      },
+      "css": {
+        "bytes": 117313,
+        "gzipBytes": 20834
+      },
+      "totalBytes": 640601
+    },
+    {
+      "entry": "src/components/sidePanelApps/bridgeVerse/scene/index.ts",
+      "files": [
+        "assets/arcadeArt-CE1rGMQx.js",
+        "assets/bridgeVerseRules-BwPox_6X.js",
+        "assets/scene-JmELWoe4.js",
+        "assets/three.module-DKRjkKHb.js"
+      ],
+      "javascript": {
+        "bytes": 863015,
+        "gzipBytes": 241101
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 863015
+    },
+    {
+      "entry": "src/components/sidePanelApps/bridgeVerse/towerHud.ts",
+      "files": [
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/AppBrowserSidebar-BWSbA8Zv.css",
+        "assets/AppBrowserSidebar-CSY-kGvc.js",
+        "assets/appDocument-CIFSERuy.js",
+        "assets/arrow-down-bUQhI1OP.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/BridgeVerseApp-CDFB_JQg.css",
+        "assets/BridgeVerseApp-eRVLsj_3.js",
+        "assets/bridgeVerseRules-BwPox_6X.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/campus-DtZNY3SQ.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/chevrons-up-down-CJZ19esu.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/circle-stop-JvgRRZVz.js",
+        "assets/dices-fSRTHzFb.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/eye-DoR05zJU.js",
+        "assets/file-CTFx8VP7.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/hand-CeVVtKcP.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/layout-grid-CQpoeATE.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/list-todo-BuJQzUDS.js",
+        "assets/liveBridgeChatActions-KMUjCXCe.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/look-BL34pHFM.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/mic-off-DEDJwA2O.js",
+        "assets/minimize-2-D6nLzL9J.js",
+        "assets/minus-rA8iI851.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/progress-CrwOFKcn.js",
+        "assets/promptDelivery-D4au0jIx.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/smartphone-C0jDOuKk.js",
+        "assets/sound-DL26ePu9.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/submissionPlan-1ebKu05b.js",
+        "assets/submissionProbe-RdSaUMT1.js",
+        "assets/terminalEscapes-B4VIGGLL.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/terminalScrollbackRegistry-uD3C_F34.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/towerHud-CtA8Yf_p.js",
+        "assets/towerHud-DrMaBKGU.css",
+        "assets/transcriptSearch-DaAgA3mX.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/usePointerDrag-DjRo37fZ.js",
+        "assets/user-plus-Dwo0_Jev.js",
+        "assets/users-DXo4fiY4.js",
+        "assets/volume-x-DCzHHLyg.js"
+      ],
+      "javascript": {
+        "bytes": 429819,
+        "gzipBytes": 151860
+      },
+      "css": {
+        "bytes": 125528,
+        "gzipBytes": 22995
+      },
+      "totalBytes": 555347
+    },
+    {
+      "entry": "src/components/terminalTaskDelivery.ts",
+      "files": [
+        "assets/promptDelivery-D4au0jIx.js",
+        "assets/submissionPlan-1ebKu05b.js",
+        "assets/submissionProbe-RdSaUMT1.js",
+        "assets/taskHandoff-q7WaH2yb.js",
+        "assets/terminalEscapes-B4VIGGLL.js",
+        "assets/terminalTaskDelivery-Ccp9O_bp.js"
+      ],
+      "javascript": {
+        "bytes": 14371,
+        "gzipBytes": 6949
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 14371
+    },
+    {
+      "entry": "src/components/tickets/TicketsPane.tsx",
+      "files": [
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/archive-Cr7x0VXA.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/chevron-left-BgzfvVf9.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/contextMenu-B4B7zGOw.js",
+        "assets/ellipsis-DyxUY2iZ.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/list-CaXmDrLH.js",
+        "assets/list-todo-BuJQzUDS.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/rotate-ccw-clock-ReCupAs4.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/send-Bl8szYbE.js",
+        "assets/Sheet-CkYVFqAN.js",
+        "assets/square-arrow-out-up-right-H4YzAb4Q.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/taskDrop-CW31KPjo.css",
+        "assets/taskDropTargets-ChOsHc1x.js",
+        "assets/taskExecution-BpfOyGXx.js",
+        "assets/taskHandoff-q7WaH2yb.js",
+        "assets/terminalEscapes-B4VIGGLL.js",
+        "assets/tickets-Cum0UZdt.js",
+        "assets/TicketsPane-BeVYQaQw.css",
+        "assets/TicketsPane-DXUwO2zN.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/usePointerDrag-DjRo37fZ.js",
+        "assets/useRailMenu-DLKqKSCA.js"
+      ],
+      "javascript": {
+        "bytes": 118466,
+        "gzipBytes": 44842
+      },
+      "css": {
+        "bytes": 31344,
+        "gzipBytes": 6253
+      },
+      "totalBytes": 149810
+    },
+    {
+      "entry": "src/components/whatsNew/WhatsNewGate.tsx",
+      "files": [
+        "assets/minus-rA8iI851.js",
+        "assets/shield-check-C4-MUqmt.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/WhatsNewDialog-9JQkFGUC.css",
+        "assets/WhatsNewDialog-DtSAeaPK.js",
+        "assets/WhatsNewGate-CKdkUbTY.js",
+        "assets/wrench-B01UWpds.js"
+      ],
+      "javascript": {
+        "bytes": 132610,
+        "gzipBytes": 46527
+      },
+      "css": {
+        "bytes": 8716,
+        "gzipBytes": 2085
+      },
+      "totalBytes": 141326
+    },
+    {
+      "entry": "src/components/whatsNew/whatsNewScene.ts",
+      "files": [
+        "assets/three.module-DKRjkKHb.js",
+        "assets/whatsNewScene-CttxPVFF.js"
+      ],
+      "javascript": {
+        "bytes": 543994,
+        "gzipBytes": 136903
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 543994
+    },
+    {
+      "entry": "src/components/workspace/CodeThreadPane.tsx",
+      "files": [
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/brain-DxxjPEl6.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/chat-thread-DcHyvN0y.js",
+        "assets/chat-thread-LgIDmM5a.css",
+        "assets/ChatPane-BLA6HaV6.js",
+        "assets/ChatPane-RyomxIB7.css",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/chevrons-up-down-CJZ19esu.js",
+        "assets/circle-alert-B6Purx7S.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/clipboardPaste-BGmmOiqv.js",
+        "assets/CodeThreadPane-DfpmvuSo.js",
+        "assets/copy-CWLsruk3.js",
+        "assets/dictationShortcut-DxVbd2dM.js",
+        "assets/dictationShortcuts-CWCYVsaQ.js",
+        "assets/EffortPicker-BaPhMv37.js",
+        "assets/EffortPicker-CV2jWdGD.css",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/eye-DoR05zJU.js",
+        "assets/file-CTFx8VP7.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/folder-plus-guuM2g9p.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/hand-CeVVtKcP.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/message-square-YxBgTVI-.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/pdf.worker.min-Dswkl-cV.mjs",
+        "assets/pencil-CJQcj41x.js",
+        "assets/pointerDropTargets-D2Xnxdg8.js",
+        "assets/promptDropTargets-BknDNzcK.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/SafeMarkdown-CgpP42mK.css",
+        "assets/SafeMarkdown-DmkgIIFr.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/sideFiles-uDrtBuA1.js",
+        "assets/sliders-horizontal-BZsD-Kao.js",
+        "assets/square-ChYa7EXU.js",
+        "assets/square-pen-BWl4Os_L.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/ssh-workspace-BpU-Xv_s.css",
+        "assets/taskDrop-CW31KPjo.css",
+        "assets/taskDropTargets-ChOsHc1x.js",
+        "assets/taskHandoff-q7WaH2yb.js",
+        "assets/terminalEscapes-B4VIGGLL.js",
+        "assets/thread-grid-DRVElEeT.css",
+        "assets/thread-grid-VRnys_TU.js",
+        "assets/time-7Em5aelp.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/UnifiedDiffView-BSuceDK4.js",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/workspaceChanges-v4GApiEa.js",
+        "assets/wrench-B01UWpds.js",
+        "assets/zap-L7jU4UrA.js"
+      ],
+      "javascript": {
+        "bytes": 187484,
+        "gzipBytes": 73479
+      },
+      "css": {
+        "bytes": 61101,
+        "gzipBytes": 13209
+      },
+      "totalBytes": 1514355
+    },
+    {
+      "entry": "src/components/workspace/SshWorkspaceDialog.tsx",
+      "files": [
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/Sheet-CkYVFqAN.js",
+        "assets/ssh-workspace-BpU-Xv_s.css",
+        "assets/SshWorkspaceDialog-BeKNeZeB.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js"
+      ],
+      "javascript": {
+        "bytes": 16880,
+        "gzipBytes": 7465
+      },
+      "css": {
+        "bytes": 1923,
+        "gzipBytes": 620
+      },
+      "totalBytes": 18803
+    },
+    {
+      "entry": "src/components/workspace/WorkspacePane.tsx",
+      "files": [
+        "assets/agent-install-OztSrmu1.css",
+        "assets/agent-resume-DAdt1vi1.css",
+        "assets/agentResume-CFivpW-c.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/arrow-down-bUQhI1OP.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/bridgePaneRegistry-pVPcFj8s.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/chat-thread-DcHyvN0y.js",
+        "assets/chat-thread-LgIDmM5a.css",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/circle-alert-B6Purx7S.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/circle-stop-JvgRRZVz.js",
+        "assets/conversationHandoff-BEaXxz3U.js",
+        "assets/download-CrW6AHpO.js",
+        "assets/ellipsis-DyxUY2iZ.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/InstallAgentButton-0O4clz7A.js",
+        "assets/key-round-CP_W6W3W.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/minimize-2-D6nLzL9J.js",
+        "assets/paneActivity-BJeADhM7.js",
+        "assets/paneDropTarget-DsuEMAnF.js",
+        "assets/pencil-CJQcj41x.js",
+        "assets/play-iiNeVn2L.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/Popover-CjM8FWoH.js",
+        "assets/rotate-ccw-clock-ReCupAs4.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/rows-2-CyGmAsF3.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/Sheet-CkYVFqAN.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-arrow-out-up-right-H4YzAb4Q.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/ssh-workspace-BpU-Xv_s.css",
+        "assets/terminalFontSize-CgzV6TQr.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/terminalScrollbackRegistry-uD3C_F34.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/trash-2-BoDrCofr.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/UsageMeterChip-B0_e9cGF.js",
+        "assets/UsageMeterChip-DgGG9Xxy.css",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/usePaneActivity-B8z7p1La.js",
+        "assets/usePointerDrag-DjRo37fZ.js",
+        "assets/WorkspacePane--nKz6LZH.js",
+        "assets/WorkspacePane-0MHidrSH.css"
+      ],
+      "javascript": {
+        "bytes": 225155,
+        "gzipBytes": 81524
+      },
+      "css": {
+        "bytes": 60716,
+        "gzipBytes": 12400
+      },
+      "totalBytes": 285871
+    },
+    {
+      "entry": "src/components/workspace/WorktreeManager.tsx",
+      "files": [
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/WorktreeManager-B03Fc3eg.css",
+        "assets/WorktreeManager-XgkHxbPo.js"
+      ],
+      "javascript": {
+        "bytes": 14950,
+        "gzipBytes": 6204
+      },
+      "css": {
+        "bytes": 684,
+        "gzipBytes": 282
+      },
+      "totalBytes": 15634
+    },
+    {
+      "entry": "src/domain/agentDraft.ts",
+      "files": [
+        "assets/agentDraft-CaFzDlOO.js"
+      ],
+      "javascript": {
+        "bytes": 1592,
+        "gzipBytes": 778
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 1592
+    },
+    {
+      "entry": "src/domain/agentMind.ts",
+      "files": [
+        "assets/agentMemoryText-BHXfytPf.js",
+        "assets/agentMind-Dvi_2Y2R.js"
+      ],
+      "javascript": {
+        "bytes": 5180,
+        "gzipBytes": 2365
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 5180
+    },
+    {
+      "entry": "src/domain/autopilot.ts",
+      "files": [
+        "assets/autopilot-DB3-uWog.js",
+        "assets/autopilotPolicy-CVejyGsU.js",
+        "assets/terminalEscapes-B4VIGGLL.js"
+      ],
+      "javascript": {
+        "bytes": 3723,
+        "gzipBytes": 2042
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 3723
+    },
+    {
+      "entry": "src/domain/chatTitleUpdate.ts",
+      "files": [
+        "assets/chatTitleUpdate-BIkdDRkX.js"
+      ],
+      "javascript": {
+        "bytes": 757,
+        "gzipBytes": 409
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 757
+    },
+    {
+      "entry": "src/domain/providerFailure.ts",
+      "files": [
+        "assets/providerFailure-BGShSnFt.js"
+      ],
+      "javascript": {
+        "bytes": 5300,
+        "gzipBytes": 1924
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 5300
+    },
+    {
+      "entry": "src/services/agentArrangement.ts",
+      "files": [
+        "assets/agentArrangement-BXZRy-Xz.js"
+      ],
+      "javascript": {
+        "bytes": 969,
+        "gzipBytes": 562
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 969
+    },
+    {
+      "entry": "src/services/bridgeLive.ts",
+      "files": [
+        "assets/bridgeConversationInstructions-Vrs_xLnO.js",
+        "assets/bridgeLive-DBIdoCln.js",
+        "assets/bridgeRealtime-DuB1hulp.js"
+      ],
+      "javascript": {
+        "bytes": 19461,
+        "gzipBytes": 7030
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 19461
+    },
+    {
+      "entry": "src/services/bridgeLiveNativeSocket.ts",
+      "files": [
+        "assets/bridgeLiveNativeSocket-Ce2A26oB.js"
+      ],
+      "javascript": {
+        "bytes": 3382,
+        "gzipBytes": 1414
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 3382
+    },
+    {
+      "entry": "src/services/bridgeMemory.ts",
+      "files": [
+        "assets/bridgeMemory-CCGxgPDF.js",
+        "assets/bridgePersona-DsWulthW.js"
+      ],
+      "javascript": {
+        "bytes": 7731,
+        "gzipBytes": 3295
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 7731
+    },
+    {
+      "entry": "src/services/bridgeRealtime.ts",
+      "files": [
+        "assets/bridgeRealtime-DuB1hulp.js"
+      ],
+      "javascript": {
+        "bytes": 6842,
+        "gzipBytes": 2543
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 6842
+    },
+    {
+      "entry": "src/services/desktop/agentMind.ts",
+      "files": [
+        "assets/agentMemoryText-BHXfytPf.js",
+        "assets/agentMind-CJ_VC0cj.js",
+        "assets/agentMind-Dvi_2Y2R.js"
+      ],
+      "javascript": {
+        "bytes": 7738,
+        "gzipBytes": 3180
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 7738
+    },
+    {
+      "entry": "src/services/desktop/archive.ts",
+      "files": [
+        "assets/archive-C3-gz35a.js"
+      ],
+      "javascript": {
+        "bytes": 1900,
+        "gzipBytes": 850
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 1900
+    },
+    {
+      "entry": "src/services/desktop/dictation.ts",
+      "files": [
+        "assets/dictation-CK6_K-l6.js",
+        "assets/dictation-D_srTo-d.js",
+        "assets/dictationShortcut-DxVbd2dM.js"
+      ],
+      "javascript": {
+        "bytes": 13621,
+        "gzipBytes": 4740
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 13621
+    },
+    {
+      "entry": "src/services/desktop/workResolution.ts",
+      "files": [
+        "assets/bridgeWorkResolution-BUDfgq8L.js",
+        "assets/workResolution-D6cyAtsx.js"
+      ],
+      "javascript": {
+        "bytes": 3618,
+        "gzipBytes": 1877
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 3618
+    },
+    {
+      "entry": "src/services/fileLinks.ts",
+      "files": [
+        "assets/fileLinks-CmiX6pH9.js",
+        "assets/files-ChxbXQPh.js"
+      ],
+      "javascript": {
+        "bytes": 11072,
+        "gzipBytes": 3997
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 11072
+    },
+    {
+      "entry": "src/services/legacyImport.ts",
+      "files": [
+        "assets/legacyImport-DS2Zr4QY.js"
+      ],
+      "javascript": {
+        "bytes": 6436,
+        "gzipBytes": 2722
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 6436
+    },
+    {
+      "entry": "src/services/sentryClient.ts",
+      "files": [
+        "assets/sentryClient-DjGJ32d6.js"
+      ],
+      "javascript": {
+        "bytes": 85440,
+        "gzipBytes": 28707
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 85440
+    },
+    {
+      "entry": "src/services/telemetryClient.ts",
+      "files": [
+        "assets/telemetryClient-Di94oJjx.js"
+      ],
+      "javascript": {
+        "bytes": 11734,
+        "gzipBytes": 5054
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 11734
+    },
+    {
+      "entry": "src/services/workspaceGit.ts",
+      "files": [
+        "assets/workspaceChanges-v4GApiEa.js",
+        "assets/workspaceGit-B3ocQsfA.js"
+      ],
+      "javascript": {
+        "bytes": 6669,
+        "gzipBytes": 2908
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 6669
+    },
+    {
+      "entry": "src/state/liveBridgeCall.ts",
+      "files": [
+        "assets/agentMemoryText-BHXfytPf.js",
+        "assets/agentMessaging-CMHMMnK9.js",
+        "assets/agentUsage-BTRcgZRH.js",
+        "assets/bridgeConversationInstructions-Vrs_xLnO.js",
+        "assets/bridgePersona-DsWulthW.js",
+        "assets/bridgeToolRegistry-DGqYoIgY.js",
+        "assets/bridgeWorkResolution-BUDfgq8L.js",
+        "assets/conversationHandoff-BEaXxz3U.js",
+        "assets/dictationShortcut-DxVbd2dM.js",
+        "assets/liveBridgeCall-BfyyGp_T.js",
+        "assets/liveBridgeChatActions-KMUjCXCe.js",
+        "assets/paneActivity-BJeADhM7.js",
+        "assets/plugins-C_sAUJ3j.js",
+        "assets/routines-DNvqPiUM.js",
+        "assets/submissionPlan-1ebKu05b.js",
+        "assets/submissionProbe-RdSaUMT1.js",
+        "assets/taskExecution-BpfOyGXx.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/terminalScrollbackRegistry-uD3C_F34.js",
+        "assets/tickets-Cum0UZdt.js",
+        "assets/transcriptSearch-DaAgA3mX.js"
+      ],
+      "javascript": {
+        "bytes": 388834,
+        "gzipBytes": 126987
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 388834
+    },
+    {
+      "entry": "src/state/macCarriedPreferences.ts",
+      "files": [
+        "assets/filesAutoSavePreference-I4tzblQy.js",
+        "assets/macCarriedPreferences-BoHm2lpM.js",
+        "assets/sideFilesPreference-Du3NyMmh.js"
+      ],
+      "javascript": {
+        "bytes": 4000,
+        "gzipBytes": 2019
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 4000
+    },
+    {
+      "entry": "src/state/sidePanelApps/agentVoiceCall.ts",
+      "files": [
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/agentVoiceCall-CKqCSK7Q.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/AppBrowserSidebar-BWSbA8Zv.css",
+        "assets/AppBrowserSidebar-CSY-kGvc.js",
+        "assets/appDocument-CIFSERuy.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/bridgeToolRegistry-DGqYoIgY.js",
+        "assets/BridgeVerseApp-CDFB_JQg.css",
+        "assets/BridgeVerseApp-eRVLsj_3.js",
+        "assets/bridgeVerseCallAccess--TxyTu0m.js",
+        "assets/bridgeVerseRules-BwPox_6X.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/campus-DtZNY3SQ.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/circle-stop-JvgRRZVz.js",
+        "assets/dices-fSRTHzFb.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/eye-DoR05zJU.js",
+        "assets/file-CTFx8VP7.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/hand-CeVVtKcP.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/layout-grid-CQpoeATE.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/list-todo-BuJQzUDS.js",
+        "assets/liveBridgeChatActions-KMUjCXCe.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/look-BL34pHFM.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/mic-off-DEDJwA2O.js",
+        "assets/minimize-2-D6nLzL9J.js",
+        "assets/minus-rA8iI851.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/progress-CrwOFKcn.js",
+        "assets/promptDelivery-D4au0jIx.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/smartphone-C0jDOuKk.js",
+        "assets/sound-DL26ePu9.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/submissionPlan-1ebKu05b.js",
+        "assets/submissionProbe-RdSaUMT1.js",
+        "assets/terminalEscapes-B4VIGGLL.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/terminalScrollbackRegistry-uD3C_F34.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/transcriptSearch-DaAgA3mX.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/usePointerDrag-DjRo37fZ.js",
+        "assets/user-plus-Dwo0_Jev.js",
+        "assets/users-DXo4fiY4.js",
+        "assets/volume-x-DCzHHLyg.js"
+      ],
+      "javascript": {
+        "bytes": 460885,
+        "gzipBytes": 164029
+      },
+      "css": {
+        "bytes": 117313,
+        "gzipBytes": 20834
+      },
+      "totalBytes": 578198
+    },
+    {
+      "entry": "src/state/sidePanelApps/officeAssistantCall.ts",
+      "files": [
+        "assets/AgentAvatar-cxN5i3fN.js",
+        "assets/anchoredPanel-DNiXWx1Z.js",
+        "assets/AppBrowserSidebar-BWSbA8Zv.css",
+        "assets/AppBrowserSidebar-CSY-kGvc.js",
+        "assets/appDocument-CIFSERuy.js",
+        "assets/arrow-left-D_vvZqg1.js",
+        "assets/arrow-right-JXsU-RgY.js",
+        "assets/arrow-up-Cx1fc5jI.js",
+        "assets/BrandLogo-CC2waUlc.js",
+        "assets/bridgeToolRegistry-DGqYoIgY.js",
+        "assets/BridgeVerseApp-CDFB_JQg.css",
+        "assets/BridgeVerseApp-eRVLsj_3.js",
+        "assets/bridgeVerseCallAccess--TxyTu0m.js",
+        "assets/bridgeVerseRules-BwPox_6X.js",
+        "assets/browser-0ZxECzbM.js",
+        "assets/campus-DtZNY3SQ.js",
+        "assets/check-DaRR8FYI.js",
+        "assets/chevron-down-C_qEPmxy.js",
+        "assets/chevron-right-D69cOfjl.js",
+        "assets/circle-check-D1wbisdU.js",
+        "assets/circle-stop-JvgRRZVz.js",
+        "assets/dices-fSRTHzFb.js",
+        "assets/EmptyState-BW0n6_f6.js",
+        "assets/externalLinks-hos2eQrw.js",
+        "assets/eye-DoR05zJU.js",
+        "assets/file-CTFx8VP7.js",
+        "assets/file-text-DIY_T5No.js",
+        "assets/folder-BgZWBheW.js",
+        "assets/globe-BsKZl8f-.js",
+        "assets/hand-CeVVtKcP.js",
+        "assets/imeComposition-WOhITvb8.js",
+        "assets/layout-grid-CQpoeATE.js",
+        "assets/list-checks-Bij-e12c.js",
+        "assets/list-todo-BuJQzUDS.js",
+        "assets/liveBridgeChatActions-KMUjCXCe.js",
+        "assets/lock-Bt_ZvOMs.js",
+        "assets/look-BL34pHFM.js",
+        "assets/Menu-DwLgQNbE.js",
+        "assets/mic-DZ05TCJ_.js",
+        "assets/mic-off-DEDJwA2O.js",
+        "assets/minimize-2-D6nLzL9J.js",
+        "assets/minus-rA8iI851.js",
+        "assets/officeAssistantCall-BOffufxo.js",
+        "assets/plus-h-MTFgOI.js",
+        "assets/progress-CrwOFKcn.js",
+        "assets/promptDelivery-D4au0jIx.js",
+        "assets/rotate-ccw-BLGeS4NF.js",
+        "assets/rotate-cw-1euFuj4V.js",
+        "assets/search-DUOrhgiY.js",
+        "assets/SelectMenu-CMD9k0f_.js",
+        "assets/SelectMenu-DNzDWYkW.css",
+        "assets/smartphone-C0jDOuKk.js",
+        "assets/sound-DL26ePu9.js",
+        "assets/sparkles-DN-WBKJF.js",
+        "assets/square-terminal-CU_vC70z.js",
+        "assets/submissionPlan-1ebKu05b.js",
+        "assets/submissionProbe-RdSaUMT1.js",
+        "assets/terminalEscapes-B4VIGGLL.js",
+        "assets/terminalRuntime.production-CcZJiczA.js",
+        "assets/terminalScrollbackRegistry-uD3C_F34.js",
+        "assets/TooltipLayer-_cmXIIVg.js",
+        "assets/transcriptSearch-DaAgA3mX.js",
+        "assets/ui-GeFeEgKA.js",
+        "assets/useBrowserSurface-DDcURJcG.js",
+        "assets/usePointerDrag-DjRo37fZ.js",
+        "assets/user-plus-Dwo0_Jev.js",
+        "assets/users-DXo4fiY4.js",
+        "assets/volume-x-DCzHHLyg.js"
+      ],
+      "javascript": {
+        "bytes": 460962,
+        "gzipBytes": 163537
+      },
+      "css": {
+        "bytes": 117313,
+        "gzipBytes": 20834
+      },
+      "totalBytes": 578275
+    },
+    {
+      "entry": "src/state/sidePanelApps/scratchpadStore.ts",
+      "files": [
+        "assets/appDocument-CIFSERuy.js",
+        "assets/scratchpadStore-Zbx1pFwq.js"
+      ],
+      "javascript": {
+        "bytes": 6531,
+        "gzipBytes": 2767
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 6531
+    },
+    {
+      "entry": "src/state/sidePanelApps/sidePanelAppsRuntime.ts",
+      "files": [
+        "assets/appDocument-CIFSERuy.js",
+        "assets/appFinishNotice-CtJZfo7S.js",
+        "assets/bombSprintStore-Cqoaz7fB.js",
+        "assets/focusTimerStore-DrYuvxeW.js",
+        "assets/sidePanelAppsRuntime-BI2oiy24.js"
+      ],
+      "javascript": {
+        "bytes": 16985,
+        "gzipBytes": 6972
+      },
+      "css": {
+        "bytes": 0,
+        "gzipBytes": 0
+      },
+      "totalBytes": 16985
+    }
+  ],
+  "bridgeVerse": {
+    "entries": [
+      "src/components/sidePanelApps/bridgeVerse/BridgeVerseApp.tsx",
+      "src/components/sidePanelApps/bridgeVerse/scene/index.ts",
+      "src/components/sidePanelApps/bridgeVerse/audio/index.ts",
+      "src/components/sidePanelApps/bridgeVerse/towerHud.ts",
+      "src/components/sidePanelApps/bridgeVerse/SoundMenu.tsx",
+      "src/components/sidePanelApps/bridgeVerse/arcade/index.ts",
+      "src/state/sidePanelApps/agentVoiceCall.ts",
+      "src/state/sidePanelApps/officeAssistantCall.ts"
+    ],
+    "files": [
+      "assets/AgentAvatar-cxN5i3fN.js",
+      "assets/agentVoiceCall-CKqCSK7Q.js",
+      "assets/anchoredPanel-DNiXWx1Z.js",
+      "assets/AppBrowserSidebar-BWSbA8Zv.css",
+      "assets/AppBrowserSidebar-CSY-kGvc.js",
+      "assets/appDocument-CIFSERuy.js",
+      "assets/arcade-BGzE-oLC.css",
+      "assets/arcade-C9telpDu.js",
+      "assets/arcadeArt-CE1rGMQx.js",
+      "assets/arrow-down-bUQhI1OP.js",
+      "assets/arrow-left-D_vvZqg1.js",
+      "assets/arrow-right-JXsU-RgY.js",
+      "assets/arrow-up-Cx1fc5jI.js",
+      "assets/audio-BWNd-na0.js",
+      "assets/BrandLogo-CC2waUlc.js",
+      "assets/bridgeToolRegistry-DGqYoIgY.js",
+      "assets/BridgeVerseApp-CDFB_JQg.css",
+      "assets/BridgeVerseApp-eRVLsj_3.js",
+      "assets/bridgeVerseCallAccess--TxyTu0m.js",
+      "assets/bridgeVerseRules-BwPox_6X.js",
+      "assets/browser-0ZxECzbM.js",
+      "assets/bug-5QWBuJ4L.js",
+      "assets/campus-DtZNY3SQ.js",
+      "assets/check-DaRR8FYI.js",
+      "assets/chevron-down-C_qEPmxy.js",
+      "assets/chevron-right-D69cOfjl.js",
+      "assets/chevrons-up-down-CJZ19esu.js",
+      "assets/circle-check-D1wbisdU.js",
+      "assets/circle-stop-JvgRRZVz.js",
+      "assets/dices-fSRTHzFb.js",
+      "assets/EmptyState-BW0n6_f6.js",
+      "assets/externalLinks-hos2eQrw.js",
+      "assets/eye-DoR05zJU.js",
+      "assets/file-CTFx8VP7.js",
+      "assets/file-text-DIY_T5No.js",
+      "assets/folder-BgZWBheW.js",
+      "assets/globe-BsKZl8f-.js",
+      "assets/hand-CeVVtKcP.js",
+      "assets/imeComposition-WOhITvb8.js",
+      "assets/layout-grid-CQpoeATE.js",
+      "assets/list-checks-Bij-e12c.js",
+      "assets/list-todo-BuJQzUDS.js",
+      "assets/liveBridgeChatActions-KMUjCXCe.js",
+      "assets/lock-Bt_ZvOMs.js",
+      "assets/look-BL34pHFM.js",
+      "assets/Menu-DwLgQNbE.js",
+      "assets/mic-DZ05TCJ_.js",
+      "assets/mic-off-DEDJwA2O.js",
+      "assets/minimize-2-D6nLzL9J.js",
+      "assets/minus-rA8iI851.js",
+      "assets/officeAssistantCall-BOffufxo.js",
+      "assets/pause-BZnPM8i-.js",
+      "assets/play-iiNeVn2L.js",
+      "assets/plus-h-MTFgOI.js",
+      "assets/progress-CrwOFKcn.js",
+      "assets/promptDelivery-D4au0jIx.js",
+      "assets/rotate-ccw-BLGeS4NF.js",
+      "assets/rotate-cw-1euFuj4V.js",
+      "assets/scene-JmELWoe4.js",
+      "assets/search-DUOrhgiY.js",
+      "assets/SelectMenu-CMD9k0f_.js",
+      "assets/SelectMenu-DNzDWYkW.css",
+      "assets/smartphone-C0jDOuKk.js",
+      "assets/sound-DL26ePu9.js",
+      "assets/SoundMenu-BaQCif-6.js",
+      "assets/sparkles-DN-WBKJF.js",
+      "assets/square-terminal-CU_vC70z.js",
+      "assets/submissionPlan-1ebKu05b.js",
+      "assets/submissionProbe-RdSaUMT1.js",
+      "assets/terminalEscapes-B4VIGGLL.js",
+      "assets/terminalRuntime.production-CcZJiczA.js",
+      "assets/terminalScrollbackRegistry-uD3C_F34.js",
+      "assets/three.module-DKRjkKHb.js",
+      "assets/TooltipLayer-_cmXIIVg.js",
+      "assets/towerHud-CtA8Yf_p.js",
+      "assets/towerHud-DrMaBKGU.css",
+      "assets/transcriptSearch-DaAgA3mX.js",
+      "assets/ui-GeFeEgKA.js",
+      "assets/useBrowserSurface-DDcURJcG.js",
+      "assets/usePointerDrag-DjRo37fZ.js",
+      "assets/user-plus-Dwo0_Jev.js",
+      "assets/users-DXo4fiY4.js",
+      "assets/volume-x-DCzHHLyg.js"
+    ],
+    "javascript": {
+      "bytes": 1522552,
+      "gzipBytes": 472240
+    },
+    "css": {
+      "bytes": 140251,
+      "gzipBytes": 26050
+    },
+    "totalBytes": 1662803
+  },
+  "assets": {
+    "bytes": 9824112,
+    "logoBytes": 389704,
+    "files": [
+      {
+        "file": "assets/Adobe-CNS1-UCS2-fO900upv.bcmap",
+        "bytes": 41193,
+        "gzipBytes": 41193,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/Adobe-GB1-UCS2-BA083yIo.bcmap",
+        "bytes": 33974,
+        "gzipBytes": 33974,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/Adobe-Japan1-UCS2-BL-4M2vS.bcmap",
+        "bytes": 40951,
+        "gzipBytes": 40951,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/Adobe-Korea1-UCS2-BEQZuOdo.bcmap",
+        "bytes": 23293,
+        "gzipBytes": 23293,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/AgentAutoPilot-CMOd4tJ5.js",
+        "bytes": 13720,
+        "gzipBytes": 5065,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/AgentAvatar-cxN5i3fN.js",
+        "bytes": 1561,
+        "gzipBytes": 875,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/AgentChatSurface-DHmDoEKN.js",
+        "bytes": 25439,
+        "gzipBytes": 8963,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/AgentChatSurface-leJO2ASi.css",
+        "bytes": 9159,
+        "gzipBytes": 2246,
+        "kind": "css"
+      },
+      {
+        "file": "assets/AgentEditor-B-rQoax8.css",
+        "bytes": 6978,
+        "gzipBytes": 1641,
+        "kind": "css"
+      },
+      {
+        "file": "assets/AgentEditor-CZIWO6Wn.js",
+        "bytes": 21999,
+        "gzipBytes": 6588,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/AgentInstallConfirmDialog-DoND9jfN.js",
+        "bytes": 3101,
+        "gzipBytes": 1403,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/AgentInstallPane-Cvdz2ol9.js",
+        "bytes": 4610,
+        "gzipBytes": 1671,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/AgentMemoryPane-Dlrnsb2c.js",
+        "bytes": 9827,
+        "gzipBytes": 3684,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/AgentSettingsPane-CRcMEwq9.js",
+        "bytes": 17594,
+        "gzipBytes": 5115,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/AgentSettingsPane-CUruJL4e.css",
+        "bytes": 4823,
+        "gzipBytes": 1237,
+        "kind": "css"
+      },
+      {
+        "file": "assets/AgentSkillsPane-xcQeJ14R.js",
+        "bytes": 10152,
+        "gzipBytes": 3646,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/AgentTerminalSurface-C4J3lhMJ.css",
+        "bytes": 8202,
+        "gzipBytes": 1911,
+        "kind": "css"
+      },
+      {
+        "file": "assets/AgentTerminalSurface-DnHcotDX.js",
+        "bytes": 7035,
+        "gzipBytes": 2915,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/AppBrowserSidebar-BWSbA8Zv.css",
+        "bytes": 24803,
+        "gzipBytes": 4171,
+        "kind": "css"
+      },
+      {
+        "file": "assets/AppBrowserSidebar-CSY-kGvc.js",
+        "bytes": 59046,
+        "gzipBytes": 19080,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ApplicationSettings-DzgLZ3qN.js",
+        "bytes": 50733,
+        "gzipBytes": 15402,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ApplicationSettings-ZBe5KYlv.css",
+        "bytes": 4238,
+        "gzipBytes": 1189,
+        "kind": "css"
+      },
+      {
+        "file": "assets/ArchivedChatsDialog-C4oYuThE.js",
+        "bytes": 3262,
+        "gzipBytes": 1497,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/AuthGate-BQ3w1Z1j.js",
+        "bytes": 14045,
+        "gzipBytes": 4564,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/AuthGate-qwft0FQ6.css",
+        "bytes": 14624,
+        "gzipBytes": 3291,
+        "kind": "css"
+      },
+      {
+        "file": "assets/BombSprintApp-5b1SNNzf.js",
+        "bytes": 31983,
+        "gzipBytes": 11837,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/BombSprintApp-CAQm6Hdq.css",
+        "bytes": 8835,
+        "gzipBytes": 2102,
+        "kind": "css"
+      },
+      {
+        "file": "assets/BrandLogo-CC2waUlc.js",
+        "bytes": 2917,
+        "gzipBytes": 1116,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/BridgeOrb-DaI4-RPG.js",
+        "bytes": 7491,
+        "gzipBytes": 2979,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/BridgeSettingsSection-DDO02PeN.css",
+        "bytes": 3731,
+        "gzipBytes": 873,
+        "kind": "css"
+      },
+      {
+        "file": "assets/BridgeSettingsSection-Pw7axTf6.js",
+        "bytes": 13811,
+        "gzipBytes": 4714,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/BridgeStrip-DDZXNU4R.js",
+        "bytes": 18113,
+        "gzipBytes": 6763,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/BridgeStrip-DVAC0-Sk.css",
+        "bytes": 7785,
+        "gzipBytes": 1814,
+        "kind": "css"
+      },
+      {
+        "file": "assets/BridgeVerseApp-CDFB_JQg.css",
+        "bytes": 85252,
+        "gzipBytes": 14996,
+        "kind": "css"
+      },
+      {
+        "file": "assets/BridgeVerseApp-eRVLsj_3.js",
+        "bytes": 189685,
+        "gzipBytes": 59896,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/BridgeVerseTerminal-D3F7tbZB.js",
+        "bytes": 4418,
+        "gzipBytes": 2197,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ChangelogSettings-BQNRejTK.js",
+        "bytes": 2175,
+        "gzipBytes": 1022,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ChatPane-BLA6HaV6.js",
+        "bytes": 72824,
+        "gzipBytes": 23515,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ChatPane-RyomxIB7.css",
+        "bytes": 28551,
+        "gzipBytes": 4981,
+        "kind": "css"
+      },
+      {
+        "file": "assets/ChatRail-T336Itzd.js",
+        "bytes": 12423,
+        "gzipBytes": 4620,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/CodeThreadPane-DfpmvuSo.js",
+        "bytes": 2146,
+        "gzipBytes": 1142,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ConfirmSheet-DBzk_7C1.js",
+        "bytes": 878,
+        "gzipBytes": 514,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/DiscordPresenceSettings-CgbQywKx.js",
+        "bytes": 3295,
+        "gzipBytes": 1475,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ETHK-B5-H-1MLb5v9x.bcmap",
+        "bytes": 4426,
+        "gzipBytes": 4426,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/EffortPicker-BaPhMv37.js",
+        "bytes": 7257,
+        "gzipBytes": 2925,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/EffortPicker-CV2jWdGD.css",
+        "bytes": 3628,
+        "gzipBytes": 1076,
+        "kind": "css"
+      },
+      {
+        "file": "assets/EmptyState-BW0n6_f6.js",
+        "bytes": 964,
+        "gzipBytes": 506,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/FeatureLock-BxEngQaI.js",
+        "bytes": 1847,
+        "gzipBytes": 793,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/FeatureLock-_ddjHXcn.css",
+        "bytes": 688,
+        "gzipBytes": 331,
+        "kind": "css"
+      },
+      {
+        "file": "assets/FilesCodeView-19d53CxL.js",
+        "bytes": 27434,
+        "gzipBytes": 9537,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/FilesCodeView-BZECMaY_.css",
+        "bytes": 12150,
+        "gzipBytes": 2845,
+        "kind": "css"
+      },
+      {
+        "file": "assets/FocusTimerApp-B0WG_YSx.js",
+        "bytes": 5537,
+        "gzipBytes": 2101,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/FocusTimerApp-BYHF-QvG.css",
+        "bytes": 3233,
+        "gzipBytes": 897,
+        "kind": "css"
+      },
+      {
+        "file": "assets/FoxitDingbats-BaQLufoW.pfb",
+        "bytes": 29513,
+        "gzipBytes": 29513,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/FoxitFixed-Dyd5Nipw.pfb",
+        "bytes": 17597,
+        "gzipBytes": 17597,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/FoxitFixedBold-D5TuYRwj.pfb",
+        "bytes": 18055,
+        "gzipBytes": 18055,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/FoxitFixedBoldItalic-BqlXQ_Yv.pfb",
+        "bytes": 19151,
+        "gzipBytes": 19151,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/FoxitFixedItalic-DqjQkmbS.pfb",
+        "bytes": 18746,
+        "gzipBytes": 18746,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/FoxitSerif-qbgiDIe-.pfb",
+        "bytes": 19469,
+        "gzipBytes": 19469,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/FoxitSerifBold-DZZ4CclT.pfb",
+        "bytes": 19395,
+        "gzipBytes": 19395,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/FoxitSerifBoldItalic-DSQtwd_X.pfb",
+        "bytes": 20733,
+        "gzipBytes": 20733,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/FoxitSerifItalic-CQs5lx9Y.pfb",
+        "bytes": 21227,
+        "gzipBytes": 21227,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/FoxitSymbol-BVtbc20u.pfb",
+        "bytes": 16729,
+        "gzipBytes": 16729,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/GBK-EUC-H-CAORqCkf.bcmap",
+        "bytes": 14692,
+        "gzipBytes": 14692,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/GBK2K-H-Cv55KPk8.bcmap",
+        "bytes": 19662,
+        "gzipBytes": 19662,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/GBKp-EUC-H-CElrnV5g.bcmap",
+        "bytes": 14686,
+        "gzipBytes": 14686,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/GBT-EUC-H-BTsQIL1M.bcmap",
+        "bytes": 7290,
+        "gzipBytes": 7290,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/GBT-H-DL9h-WkS.bcmap",
+        "bytes": 7269,
+        "gzipBytes": 7269,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/GBTpc-EUC-H-DnIh5WJ3.bcmap",
+        "bytes": 7298,
+        "gzipBytes": 7298,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/HKscs-B5-H-CXbBbq6g.bcmap",
+        "bytes": 4437,
+        "gzipBytes": 4437,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/ImportSettings-BF0dPOeG.js",
+        "bytes": 20785,
+        "gzipBytes": 7360,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ImportSettings-D6dqntiu.css",
+        "bytes": 2105,
+        "gzipBytes": 689,
+        "kind": "css"
+      },
+      {
+        "file": "assets/InstallAgentButton-0O4clz7A.js",
+        "bytes": 3090,
+        "gzipBytes": 1309,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/KSC-Johab-H-CGtV3MPT.bcmap",
+        "bytes": 16791,
+        "gzipBytes": 16791,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/LiberationSans-Bold-BPt4bU5Z.ttf",
+        "bytes": 137052,
+        "gzipBytes": 137052,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/LiberationSans-BoldItalic-Bj53-jFw.ttf",
+        "bytes": 135124,
+        "gzipBytes": 135124,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/LiberationSans-Italic-5QhGB3P9.ttf",
+        "bytes": 162036,
+        "gzipBytes": 162036,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/LiberationSans-Regular-cbskN6YR.ttf",
+        "bytes": 139512,
+        "gzipBytes": 139512,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/MacMigrationNotice-JSU4tVIx.js",
+        "bytes": 2821,
+        "gzipBytes": 1411,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/MainSurfaces-BICttdLl.css",
+        "bytes": 15024,
+        "gzipBytes": 2912,
+        "kind": "css"
+      },
+      {
+        "file": "assets/MainSurfaces-BS_MTjOQ.js",
+        "bytes": 19142,
+        "gzipBytes": 7046,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/Menu-DwLgQNbE.js",
+        "bytes": 9056,
+        "gzipBytes": 3341,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/MiddleTruncate-DHGHuUmu.js",
+        "bytes": 1568,
+        "gzipBytes": 868,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/NotificationBell-DmGeue8h.js",
+        "bytes": 1148,
+        "gzipBytes": 633,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/NotificationCenter-CExfPp6w.js",
+        "bytes": 4478,
+        "gzipBytes": 1726,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/NotificationCenter-Caq6wscQ.css",
+        "bytes": 4061,
+        "gzipBytes": 1061,
+        "kind": "css"
+      },
+      {
+        "file": "assets/PluginsPane-DyVSaBtG.js",
+        "bytes": 5498,
+        "gzipBytes": 2106,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/Popover-CjM8FWoH.js",
+        "bytes": 1738,
+        "gzipBytes": 872,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/PromptLibraryPane-DBFzQcsy.css",
+        "bytes": 905,
+        "gzipBytes": 369,
+        "kind": "css"
+      },
+      {
+        "file": "assets/PromptLibraryPane-DZG_S-ZF.js",
+        "bytes": 5034,
+        "gzipBytes": 1917,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/PromptLibrarySurface-Nj0qKnJ8.js",
+        "bytes": 2465,
+        "gzipBytes": 1251,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/RemoteApprovalBanners-B6sKhmQt.js",
+        "bytes": 2174,
+        "gzipBytes": 1038,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ResumeHost-C651f7zE.js",
+        "bytes": 4649,
+        "gzipBytes": 1846,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/RoutinesPane-ClcXGiQU.js",
+        "bytes": 15883,
+        "gzipBytes": 5082,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/SafeMarkdown-CgpP42mK.css",
+        "bytes": 3840,
+        "gzipBytes": 1074,
+        "kind": "css"
+      },
+      {
+        "file": "assets/SafeMarkdown-DmkgIIFr.js",
+        "bytes": 9998,
+        "gzipBytes": 4085,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ScratchpadApp-C1ygjbyn.js",
+        "bytes": 393255,
+        "gzipBytes": 123090,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ScratchpadApp-DM2zCy8v.css",
+        "bytes": 1234,
+        "gzipBytes": 474,
+        "kind": "css"
+      },
+      {
+        "file": "assets/SelectMenu-CMD9k0f_.js",
+        "bytes": 10380,
+        "gzipBytes": 3865,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/SelectMenu-DNzDWYkW.css",
+        "bytes": 7258,
+        "gzipBytes": 1667,
+        "kind": "css"
+      },
+      {
+        "file": "assets/SessionNotices-DPElNHk0.js",
+        "bytes": 1220,
+        "gzipBytes": 629,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/SessionRenameSheet-D_uVF1vA.js",
+        "bytes": 1771,
+        "gzipBytes": 1009,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/SettingsControls-Cc7Hj9MQ.js",
+        "bytes": 2714,
+        "gzipBytes": 1083,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/SettingsSidebar-D01PTZcT.js",
+        "bytes": 1965,
+        "gzipBytes": 874,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/Sheet-CkYVFqAN.js",
+        "bytes": 3005,
+        "gzipBytes": 1422,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/SideFilesPanel-B2ExOrLd.css",
+        "bytes": 6936,
+        "gzipBytes": 1755,
+        "kind": "css"
+      },
+      {
+        "file": "assets/SideFilesPanel-BpsADTwA.js",
+        "bytes": 52026,
+        "gzipBytes": 16696,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/SidePanelAppHost-Bo6qXQgc.css",
+        "bytes": 221,
+        "gzipBytes": 165,
+        "kind": "css"
+      },
+      {
+        "file": "assets/SidePanelAppHost-DuGdOGxm.js",
+        "bytes": 6140,
+        "gzipBytes": 2666,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/SidePanelAppPillStatus-CoACe78H.js",
+        "bytes": 2686,
+        "gzipBytes": 1251,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/SidePanelFileView-28Nf43TL.css",
+        "bytes": 1086,
+        "gzipBytes": 421,
+        "kind": "css"
+      },
+      {
+        "file": "assets/SidePanelFileView-ZbauD0K1.js",
+        "bytes": 5621,
+        "gzipBytes": 2284,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/SidePromptsPanel-CIxSCxGa.css",
+        "bytes": 5036,
+        "gzipBytes": 1368,
+        "kind": "css"
+      },
+      {
+        "file": "assets/SidePromptsPanel-DBJ3U0eK.js",
+        "bytes": 9485,
+        "gzipBytes": 3653,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/Sidebar-BruZqATG.js",
+        "bytes": 20694,
+        "gzipBytes": 7598,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/Sidebar-CGIJgK-Q.css",
+        "bytes": 282,
+        "gzipBytes": 141,
+        "kind": "css"
+      },
+      {
+        "file": "assets/SoundMenu-BaQCif-6.js",
+        "bytes": 4621,
+        "gzipBytes": 2058,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/SshWorkspaceDialog-BeKNeZeB.js",
+        "bytes": 4155,
+        "gzipBytes": 1770,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/TelemetrySettings-BnySsJuR.js",
+        "bytes": 1730,
+        "gzipBytes": 893,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ThreadUsageMeter-BT1Xf06c.js",
+        "bytes": 1535,
+        "gzipBytes": 858,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/TicketsPane-BeVYQaQw.css",
+        "bytes": 22677,
+        "gzipBytes": 4066,
+        "kind": "css"
+      },
+      {
+        "file": "assets/TicketsPane-DXUwO2zN.js",
+        "bytes": 56199,
+        "gzipBytes": 16717,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/TooltipLayer-_cmXIIVg.js",
+        "bytes": 3923,
+        "gzipBytes": 1631,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/TranscriptSearch-BlEJHmPH.css",
+        "bytes": 868,
+        "gzipBytes": 364,
+        "kind": "css"
+      },
+      {
+        "file": "assets/TranscriptSearch-DZcTbhTX.js",
+        "bytes": 2998,
+        "gzipBytes": 1323,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/TranscriptSearchSurface-B-e53IV1.js",
+        "bytes": 2500,
+        "gzipBytes": 1253,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/TranscriptSearchSurface-CdMPRv2g.css",
+        "bytes": 475,
+        "gzipBytes": 260,
+        "kind": "css"
+      },
+      {
+        "file": "assets/UniCNS-UCS2-H-DWzv8UhH.bcmap",
+        "bytes": 48280,
+        "gzipBytes": 48280,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniCNS-UTF16-H-Bw0JKgCq.bcmap",
+        "bytes": 50419,
+        "gzipBytes": 50419,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniCNS-UTF32-H-IE_GrH2i.bcmap",
+        "bytes": 52679,
+        "gzipBytes": 52679,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniCNS-UTF8-H-BbLcFh6Q.bcmap",
+        "bytes": 53629,
+        "gzipBytes": 53629,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniGB-UCS2-H-D7xzRvZN.bcmap",
+        "bytes": 43366,
+        "gzipBytes": 43366,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniGB-UTF16-H-DKjbEwc0.bcmap",
+        "bytes": 44086,
+        "gzipBytes": 44086,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniGB-UTF32-H-Behfouj5.bcmap",
+        "bytes": 45738,
+        "gzipBytes": 45738,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniGB-UTF8-H-EROft1ro.bcmap",
+        "bytes": 46837,
+        "gzipBytes": 46837,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniJIS-UCS2-H-2DbZ0MaQ.bcmap",
+        "bytes": 25439,
+        "gzipBytes": 25439,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniJIS-UTF16-H-BlDDPdCK.bcmap",
+        "bytes": 39443,
+        "gzipBytes": 39443,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniJIS-UTF32-H-BIQPWkjv.bcmap",
+        "bytes": 40539,
+        "gzipBytes": 40539,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniJIS-UTF8-H-CGusholx.bcmap",
+        "bytes": 41695,
+        "gzipBytes": 41695,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniJIS2004-UTF16-H-KXixH-HI.bcmap",
+        "bytes": 39534,
+        "gzipBytes": 39534,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniJIS2004-UTF32-H-CXrD-9YE.bcmap",
+        "bytes": 40630,
+        "gzipBytes": 40630,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniJIS2004-UTF8-H-BkOctZjn.bcmap",
+        "bytes": 41779,
+        "gzipBytes": 41779,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniJISX0213-UTF32-H-BavAhZjb.bcmap",
+        "bytes": 40517,
+        "gzipBytes": 40517,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniJISX02132004-UTF32-H-DAH-AgUq.bcmap",
+        "bytes": 40608,
+        "gzipBytes": 40608,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniKS-UCS2-H-YeUc7k1L.bcmap",
+        "bytes": 25783,
+        "gzipBytes": 25783,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniKS-UTF16-H-B0dvB-Td.bcmap",
+        "bytes": 26327,
+        "gzipBytes": 26327,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniKS-UTF32-H-olR_LtmR.bcmap",
+        "bytes": 26451,
+        "gzipBytes": 26451,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UniKS-UTF8-H-CbpebD-y.bcmap",
+        "bytes": 27790,
+        "gzipBytes": 27790,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/UnifiedDiffView-BSuceDK4.js",
+        "bytes": 4324,
+        "gzipBytes": 1639,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/UpdateFace-BGXZSmvk.js",
+        "bytes": 1875,
+        "gzipBytes": 790,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/UsageDashboard-CP8NaxBG.js",
+        "bytes": 13547,
+        "gzipBytes": 4920,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/UsageDashboard-zBhdOS2P.css",
+        "bytes": 7565,
+        "gzipBytes": 1764,
+        "kind": "css"
+      },
+      {
+        "file": "assets/UsageMeterChip-B0_e9cGF.js",
+        "bytes": 9855,
+        "gzipBytes": 3730,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/UsageMeterChip-DgGG9Xxy.css",
+        "bytes": 4186,
+        "gzipBytes": 1041,
+        "kind": "css"
+      },
+      {
+        "file": "assets/VoiceSettings-B0k83JQd.js",
+        "bytes": 9864,
+        "gzipBytes": 3667,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/WhatsNewDialog-9JQkFGUC.css",
+        "bytes": 8716,
+        "gzipBytes": 2085,
+        "kind": "css"
+      },
+      {
+        "file": "assets/WhatsNewDialog-DtSAeaPK.js",
+        "bytes": 129182,
+        "gzipBytes": 44450,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/WhatsNewGate-CKdkUbTY.js",
+        "bytes": 802,
+        "gzipBytes": 487,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/WorkspaceMenu-CYJVdKSL.js",
+        "bytes": 2478,
+        "gzipBytes": 1216,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/WorkspacePane--nKz6LZH.js",
+        "bytes": 85357,
+        "gzipBytes": 25684,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/WorkspacePane-0MHidrSH.css",
+        "bytes": 29036,
+        "gzipBytes": 4867,
+        "kind": "css"
+      },
+      {
+        "file": "assets/WorkspaceRoster-C1yfJ7Ri.js",
+        "bytes": 20657,
+        "gzipBytes": 7149,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/WorktreeManager-B03Fc3eg.css",
+        "bytes": 684,
+        "gzipBytes": 282,
+        "kind": "css"
+      },
+      {
+        "file": "assets/WorktreeManager-XgkHxbPo.js",
+        "bytes": 6173,
+        "gzipBytes": 2528,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/XtermSurface-BY9A3xe3.css",
+        "bytes": 6674,
+        "gzipBytes": 1676,
+        "kind": "css"
+      },
+      {
+        "file": "assets/XtermSurface-XN6pwfrP.js",
+        "bytes": 393736,
+        "gzipBytes": 104724,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/addon-webgl-BJCjBVrd.js",
+        "bytes": 113784,
+        "gzipBytes": 30946,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/agent-engine-chip-B7jnK5RI.js",
+        "bytes": 3531,
+        "gzipBytes": 1238,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/agent-engine-chip-Cxnpk2-J.css",
+        "bytes": 3689,
+        "gzipBytes": 926,
+        "kind": "css"
+      },
+      {
+        "file": "assets/agent-install-OztSrmu1.css",
+        "bytes": 6155,
+        "gzipBytes": 1491,
+        "kind": "css"
+      },
+      {
+        "file": "assets/agent-resume-DAdt1vi1.css",
+        "bytes": 1903,
+        "gzipBytes": 634,
+        "kind": "css"
+      },
+      {
+        "file": "assets/agentArrangement-BXZRy-Xz.js",
+        "bytes": 969,
+        "gzipBytes": 562,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/agentDraft-CaFzDlOO.js",
+        "bytes": 1592,
+        "gzipBytes": 778,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/agentMemoryText-BHXfytPf.js",
+        "bytes": 1649,
+        "gzipBytes": 855,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/agentMessaging-CMHMMnK9.js",
+        "bytes": 1542,
+        "gzipBytes": 780,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/agentMind-CJ_VC0cj.js",
+        "bytes": 2558,
+        "gzipBytes": 815,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/agentMind-Dvi_2Y2R.js",
+        "bytes": 3531,
+        "gzipBytes": 1510,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/agentResume-CFivpW-c.js",
+        "bytes": 2925,
+        "gzipBytes": 1297,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/agentResumeSignals-Bf3qmKXe.js",
+        "bytes": 844,
+        "gzipBytes": 449,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/agentUsage-BTRcgZRH.js",
+        "bytes": 3594,
+        "gzipBytes": 1708,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/agentVoiceCall-CKqCSK7Q.js",
+        "bytes": 17197,
+        "gzipBytes": 6559,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/agents-DucYuCae.js",
+        "bytes": 5193,
+        "gzipBytes": 2013,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/anchoredPanel-DNiXWx1Z.js",
+        "bytes": 864,
+        "gzipBytes": 488,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/appDocument-CIFSERuy.js",
+        "bytes": 2080,
+        "gzipBytes": 961,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/appFinishNotice-CtJZfo7S.js",
+        "bytes": 2275,
+        "gzipBytes": 968,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/arcade-BGzE-oLC.css",
+        "bytes": 14723,
+        "gzipBytes": 3055,
+        "kind": "css"
+      },
+      {
+        "file": "assets/arcade-C9telpDu.js",
+        "bytes": 64041,
+        "gzipBytes": 22667,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/arcadeArt-CE1rGMQx.js",
+        "bytes": 2171,
+        "gzipBytes": 1214,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/archive-C3-gz35a.js",
+        "bytes": 1900,
+        "gzipBytes": 850,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/archive-Cr7x0VXA.js",
+        "bytes": 601,
+        "gzipBytes": 379,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/arrow-down-bUQhI1OP.js",
+        "bytes": 513,
+        "gzipBytes": 329,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/arrow-down-to-line-_dR5nPAe.js",
+        "bytes": 557,
+        "gzipBytes": 348,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/arrow-left-D_vvZqg1.js",
+        "bytes": 513,
+        "gzipBytes": 332,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/arrow-right-JXsU-RgY.js",
+        "bytes": 513,
+        "gzipBytes": 332,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/arrow-up-Cx1fc5jI.js",
+        "bytes": 510,
+        "gzipBytes": 331,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/audio-BWNd-na0.js",
+        "bytes": 102917,
+        "gzipBytes": 32284,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/authDiagnostics-BLVXF-V1.js",
+        "bytes": 2297,
+        "gzipBytes": 1107,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/autopilot-DB3-uWog.js",
+        "bytes": 1796,
+        "gzipBytes": 926,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/autopilotPolicy-CVejyGsU.js",
+        "bytes": 1399,
+        "gzipBytes": 780,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bell-DTnHIh6A.js",
+        "bytes": 638,
+        "gzipBytes": 404,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bomb-beep-high-BxeXnAU3.wav",
+        "bytes": 18566,
+        "gzipBytes": 18566,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/bomb-beep-low-ns2A7qkm.wav",
+        "bytes": 14156,
+        "gzipBytes": 14156,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/bomb-explode-ssLA8GMc.wav",
+        "bytes": 255824,
+        "gzipBytes": 255824,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/bomb-ignite-Bb0INyFm.wav",
+        "bytes": 44144,
+        "gzipBytes": 44144,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/bombSprintStore-Cqoaz7fB.js",
+        "bytes": 6202,
+        "gzipBytes": 2450,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/brain-DxxjPEl6.js",
+        "bytes": 925,
+        "gzipBytes": 480,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bridge-mind-mark.png",
+        "bytes": 10680,
+        "gzipBytes": 10680,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/bridge-mind-symbol.png",
+        "bytes": 8511,
+        "gzipBytes": 8511,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/bridgeContext-C11At3Ko.js",
+        "bytes": 2931,
+        "gzipBytes": 1312,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bridgeConversationInstructions-Vrs_xLnO.js",
+        "bytes": 986,
+        "gzipBytes": 572,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bridgeLive-DBIdoCln.js",
+        "bytes": 11633,
+        "gzipBytes": 3915,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bridgeLiveNativeSocket-Ce2A26oB.js",
+        "bytes": 3382,
+        "gzipBytes": 1414,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bridgeMemory-CCGxgPDF.js",
+        "bytes": 3441,
+        "gzipBytes": 1353,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bridgePaneRegistry-pVPcFj8s.js",
+        "bytes": 530,
+        "gzipBytes": 307,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bridgePersona-DsWulthW.js",
+        "bytes": 4290,
+        "gzipBytes": 1942,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bridgeRealtime-DuB1hulp.js",
+        "bytes": 6842,
+        "gzipBytes": 2543,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bridgeReflection-DcgMJkzS.js",
+        "bytes": 2002,
+        "gzipBytes": 1020,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bridgeToolRegistry-DGqYoIgY.js",
+        "bytes": 3865,
+        "gzipBytes": 1730,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bridgeTools-HrgZdXT1.js",
+        "bytes": 2927,
+        "gzipBytes": 1356,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bridgeVerseCallAccess--TxyTu0m.js",
+        "bytes": 19452,
+        "gzipBytes": 7627,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bridgeVerseRules-BwPox_6X.js",
+        "bytes": 1722,
+        "gzipBytes": 890,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bridgeWorkResolution-BUDfgq8L.js",
+        "bytes": 2787,
+        "gzipBytes": 1380,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/browser-0ZxECzbM.js",
+        "bytes": 5468,
+        "gzipBytes": 2086,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/bug-5QWBuJ4L.js",
+        "bytes": 976,
+        "gzipBytes": 496,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/calendar-clock-BNkBvV0D.js",
+        "bytes": 729,
+        "gzipBytes": 425,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/campus-DtZNY3SQ.js",
+        "bytes": 4862,
+        "gzipBytes": 1961,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/chat-D3Sbs-M3.js",
+        "bytes": 17766,
+        "gzipBytes": 5936,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/chat-thread-DcHyvN0y.js",
+        "bytes": 1379,
+        "gzipBytes": 763,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/chat-thread-LgIDmM5a.css",
+        "bytes": 10255,
+        "gzipBytes": 2080,
+        "kind": "css"
+      },
+      {
+        "file": "assets/chatAttachmentFiles-B9uozJ6j.js",
+        "bytes": 842,
+        "gzipBytes": 531,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/chatTitleUpdate-BIkdDRkX.js",
+        "bytes": 757,
+        "gzipBytes": 409,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/check-DaRR8FYI.js",
+        "bytes": 472,
+        "gzipBytes": 311,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/chevron-down-C_qEPmxy.js",
+        "bytes": 476,
+        "gzipBytes": 309,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/chevron-left-BgzfvVf9.js",
+        "bytes": 478,
+        "gzipBytes": 312,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/chevron-right-D69cOfjl.js",
+        "bytes": 478,
+        "gzipBytes": 311,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/chevrons-up-down-CJZ19esu.js",
+        "bytes": 522,
+        "gzipBytes": 327,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/circle-alert-B6Purx7S.js",
+        "bytes": 598,
+        "gzipBytes": 353,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/circle-arrow-down-CcjBcknJ.js",
+        "bytes": 567,
+        "gzipBytes": 354,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/circle-check-D1wbisdU.js",
+        "bytes": 526,
+        "gzipBytes": 336,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/circle-stop-JvgRRZVz.js",
+        "bytes": 547,
+        "gzipBytes": 346,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/claudeAccounts-BRdm4CQ0.js",
+        "bytes": 1476,
+        "gzipBytes": 755,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/clipboardPaste-BGmmOiqv.js",
+        "bytes": 670,
+        "gzipBytes": 388,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/clock-3-DcGi4IAM.js",
+        "bytes": 517,
+        "gzipBytes": 334,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/codexAccounts-wNMyI_X2.js",
+        "bytes": 1384,
+        "gzipBytes": 737,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/compactTokenLabel-42-kwOSl.js",
+        "bytes": 647,
+        "gzipBytes": 401,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/contextMenu-B4B7zGOw.js",
+        "bytes": 619,
+        "gzipBytes": 366,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/conversationHandoff-BEaXxz3U.js",
+        "bytes": 3483,
+        "gzipBytes": 1616,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/copy-CWLsruk3.js",
+        "bytes": 584,
+        "gzipBytes": 377,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/core-B1WoYMf3.js",
+        "bytes": 3159,
+        "gzipBytes": 1267,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/core-DLA1qCJT.js",
+        "bytes": 67729,
+        "gzipBytes": 15792,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/corner-down-left-BbE-RcRw.js",
+        "bytes": 533,
+        "gzipBytes": 345,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/credits-DkPZe0kY.js",
+        "bytes": 916,
+        "gzipBytes": 534,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/defineProperty-BbfpZ9Tg.js",
+        "bytes": 1064,
+        "gzipBytes": 555,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/desktopRuntime.production-BKhqnLEm.js",
+        "bytes": 2805,
+        "gzipBytes": 1300,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/destinations-CgL7jO-l.css",
+        "bytes": 9228,
+        "gzipBytes": 2157,
+        "kind": "css"
+      },
+      {
+        "file": "assets/dices-fSRTHzFb.js",
+        "bytes": 754,
+        "gzipBytes": 432,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/dictation-CK6_K-l6.js",
+        "bytes": 2951,
+        "gzipBytes": 1171,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/dictation-D_srTo-d.js",
+        "bytes": 6695,
+        "gzipBytes": 1892,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/dictationShortcut-DxVbd2dM.js",
+        "bytes": 3975,
+        "gzipBytes": 1677,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/dictationShortcuts-CWCYVsaQ.js",
+        "bytes": 3341,
+        "gzipBytes": 1403,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/download-CrW6AHpO.js",
+        "bytes": 580,
+        "gzipBytes": 359,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/dpi-Io7YIRQk.js",
+        "bytes": 2421,
+        "gzipBytes": 660,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ellipsis-DyxUY2iZ.js",
+        "bytes": 574,
+        "gzipBytes": 330,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/entitlements-Cv0g3vy-.js",
+        "bytes": 1563,
+        "gzipBytes": 720,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/event-Cda0xDkT.js",
+        "bytes": 1708,
+        "gzipBytes": 813,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/externalLink-C0UbrXz7.js",
+        "bytes": 632,
+        "gzipBytes": 389,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/externalLinks-hos2eQrw.js",
+        "bytes": 2033,
+        "gzipBytes": 1028,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/eye-DoR05zJU.js",
+        "bytes": 604,
+        "gzipBytes": 370,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/file-CTFx8VP7.js",
+        "bytes": 1274,
+        "gzipBytes": 510,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/file-text-DIY_T5No.js",
+        "bytes": 733,
+        "gzipBytes": 417,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/fileLinks-CmiX6pH9.js",
+        "bytes": 2788,
+        "gzipBytes": 1214,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/files-ChxbXQPh.js",
+        "bytes": 8284,
+        "gzipBytes": 2783,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/filesAutoSavePreference-I4tzblQy.js",
+        "bytes": 1075,
+        "gzipBytes": 564,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/focusTimerStore-DrYuvxeW.js",
+        "bytes": 5842,
+        "gzipBytes": 2241,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/folder-BgZWBheW.js",
+        "bytes": 576,
+        "gzipBytes": 358,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/folder-open-CR6h-6Ms.js",
+        "bytes": 640,
+        "gzipBytes": 388,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/folder-plus-guuM2g9p.js",
+        "bytes": 654,
+        "gzipBytes": 394,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/globe-BsKZl8f-.js",
+        "bytes": 766,
+        "gzipBytes": 434,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/hand-CeVVtKcP.js",
+        "bytes": 754,
+        "gzipBytes": 423,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/imeComposition-WOhITvb8.js",
+        "bytes": 465,
+        "gzipBytes": 286,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/index-C4vX1IEp.js",
+        "bytes": 450238,
+        "gzipBytes": 133869,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/index-d1YOOzH-.css",
+        "bytes": 87240,
+        "gzipBytes": 15918,
+        "kind": "css"
+      },
+      {
+        "file": "assets/jsx-runtime-0vZSBttN.js",
+        "bytes": 782,
+        "gzipBytes": 460,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/key-round-CP_W6W3W.js",
+        "bytes": 703,
+        "gzipBytes": 426,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/launchConstellation-QJwL_8bG.js",
+        "bytes": 3718,
+        "gzipBytes": 1862,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/layout-grid-CQpoeATE.js",
+        "bytes": 694,
+        "gzipBytes": 357,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/legacyImport-DS2Zr4QY.js",
+        "bytes": 6436,
+        "gzipBytes": 2722,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/list-CaXmDrLH.js",
+        "bytes": 650,
+        "gzipBytes": 356,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/list-checks-Bij-e12c.js",
+        "bytes": 627,
+        "gzipBytes": 356,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/list-todo-BuJQzUDS.js",
+        "bytes": 648,
+        "gzipBytes": 388,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/liveBridgeCall-BfyyGp_T.js",
+        "bytes": 271585,
+        "gzipBytes": 82093,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/liveBridgeChatActions-KMUjCXCe.js",
+        "bytes": 26803,
+        "gzipBytes": 9847,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/lock-Bt_ZvOMs.js",
+        "bytes": 554,
+        "gzipBytes": 363,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/logos/agent-aider-onDark.png",
+        "bytes": 1510,
+        "gzipBytes": 1510,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-aider-onLight.png",
+        "bytes": 1403,
+        "gzipBytes": 1403,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-amp.png",
+        "bytes": 3042,
+        "gzipBytes": 3042,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-antigravity.png",
+        "bytes": 2750,
+        "gzipBytes": 2750,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-claude.png",
+        "bytes": 3161,
+        "gzipBytes": 3161,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-codex-onDark.png",
+        "bytes": 1929,
+        "gzipBytes": 1929,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-codex-onLight.png",
+        "bytes": 1760,
+        "gzipBytes": 1760,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-copilot-onDark.png",
+        "bytes": 1743,
+        "gzipBytes": 1743,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-copilot-onLight.png",
+        "bytes": 1603,
+        "gzipBytes": 1603,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-cursor-onDark.png",
+        "bytes": 2156,
+        "gzipBytes": 2156,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-cursor-onLight.png",
+        "bytes": 2021,
+        "gzipBytes": 2021,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-deepseek.png",
+        "bytes": 2521,
+        "gzipBytes": 2521,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-droid-onDark.png",
+        "bytes": 1937,
+        "gzipBytes": 1937,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-droid-onLight.png",
+        "bytes": 1782,
+        "gzipBytes": 1782,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-gemini-onDark.png",
+        "bytes": 1587,
+        "gzipBytes": 1587,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-gemini-onLight.png",
+        "bytes": 1539,
+        "gzipBytes": 1539,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-grok-onDark.png",
+        "bytes": 1638,
+        "gzipBytes": 1638,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-grok-onLight.png",
+        "bytes": 1573,
+        "gzipBytes": 1573,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-kimi-onDark.png",
+        "bytes": 4981,
+        "gzipBytes": 4981,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-kimi-onLight.png",
+        "bytes": 4604,
+        "gzipBytes": 4604,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-opencode-onDark.png",
+        "bytes": 1289,
+        "gzipBytes": 1289,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/agent-opencode-onLight.png",
+        "bytes": 1288,
+        "gzipBytes": 1288,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-apollo.png",
+        "bytes": 2980,
+        "gzipBytes": 2980,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-blender.png",
+        "bytes": 2591,
+        "gzipBytes": 2591,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-cloudflare-onDark.png",
+        "bytes": 1941,
+        "gzipBytes": 1941,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-cloudflare-onLight.png",
+        "bytes": 1621,
+        "gzipBytes": 1621,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-fal-onDark.png",
+        "bytes": 2388,
+        "gzipBytes": 2388,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-fal-onLight.png",
+        "bytes": 1877,
+        "gzipBytes": 1877,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-github-onDark.png",
+        "bytes": 1674,
+        "gzipBytes": 1674,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-github-onLight.png",
+        "bytes": 1966,
+        "gzipBytes": 1966,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-gmail.png",
+        "bytes": 2073,
+        "gzipBytes": 2073,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-googleads.png",
+        "bytes": 2326,
+        "gzipBytes": 2326,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-higgsfield-onDark.png",
+        "bytes": 2673,
+        "gzipBytes": 2673,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-higgsfield-onLight.png",
+        "bytes": 1930,
+        "gzipBytes": 1930,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-linear-onDark.png",
+        "bytes": 2830,
+        "gzipBytes": 2830,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-linear-onLight.png",
+        "bytes": 2017,
+        "gzipBytes": 2017,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-metaads-onDark.png",
+        "bytes": 1605,
+        "gzipBytes": 1605,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-metaads-onLight.png",
+        "bytes": 2793,
+        "gzipBytes": 2793,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-notion-onDark.png",
+        "bytes": 1663,
+        "gzipBytes": 1663,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-notion-onLight.png",
+        "bytes": 1999,
+        "gzipBytes": 1999,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-paddle.png",
+        "bytes": 5697,
+        "gzipBytes": 5697,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-posthog.png",
+        "bytes": 2787,
+        "gzipBytes": 2787,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-quickbooks-onDark.png",
+        "bytes": 2697,
+        "gzipBytes": 2697,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-quickbooks-onLight.png",
+        "bytes": 2697,
+        "gzipBytes": 2697,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-resend-onDark.png",
+        "bytes": 1490,
+        "gzipBytes": 1490,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-resend-onLight.png",
+        "bytes": 1486,
+        "gzipBytes": 1486,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-revenuecat-onDark.png",
+        "bytes": 1578,
+        "gzipBytes": 1578,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-revenuecat-onLight.png",
+        "bytes": 2803,
+        "gzipBytes": 2803,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-ryze-template.png",
+        "bytes": 127259,
+        "gzipBytes": 127259,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-sentry-onDark.png",
+        "bytes": 1593,
+        "gzipBytes": 1593,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-sentry-onLight.png",
+        "bytes": 2610,
+        "gzipBytes": 2610,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-shopify-onDark.png",
+        "bytes": 2802,
+        "gzipBytes": 2802,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-shopify-onLight.png",
+        "bytes": 2006,
+        "gzipBytes": 2006,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-slack.png",
+        "bytes": 2261,
+        "gzipBytes": 2261,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-stripe-onDark.png",
+        "bytes": 2169,
+        "gzipBytes": 2169,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-stripe-onLight.png",
+        "bytes": 1797,
+        "gzipBytes": 1797,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-supabase-onDark.png",
+        "bytes": 1916,
+        "gzipBytes": 1916,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-supabase-onLight.png",
+        "bytes": 1618,
+        "gzipBytes": 1618,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-unity-onDark.png",
+        "bytes": 1640,
+        "gzipBytes": 1640,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-unity-onLight.png",
+        "bytes": 1867,
+        "gzipBytes": 1867,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-unreal-onDark.png",
+        "bytes": 1810,
+        "gzipBytes": 1810,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-unreal-onLight.png",
+        "bytes": 2026,
+        "gzipBytes": 2026,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-vercel-onDark.png",
+        "bytes": 1426,
+        "gzipBytes": 1426,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-vercel-onLight.png",
+        "bytes": 1425,
+        "gzipBytes": 1425,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-vidiq.png",
+        "bytes": 2618,
+        "gzipBytes": 2618,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-x-onDark.png",
+        "bytes": 1656,
+        "gzipBytes": 1656,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-x-onLight.png",
+        "bytes": 1574,
+        "gzipBytes": 1574,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-youtube.png",
+        "bytes": 1602,
+        "gzipBytes": 1602,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/logos/plugin-zernio.png",
+        "bytes": 118030,
+        "gzipBytes": 118030,
+        "kind": "logo"
+      },
+      {
+        "file": "assets/look-BL34pHFM.js",
+        "bytes": 1698,
+        "gzipBytes": 895,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/macCarriedPreferences-BoHm2lpM.js",
+        "bytes": 1406,
+        "gzipBytes": 681,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/macMigrationRefreshRuntime-BvKRN3m3.js",
+        "bytes": 1278,
+        "gzipBytes": 655,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/macMigrationRuntime-B4ftCSPk.js",
+        "bytes": 4146,
+        "gzipBytes": 1788,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/message-square-YxBgTVI-.js",
+        "bytes": 581,
+        "gzipBytes": 368,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/messages-square-CJUkr_Q4.js",
+        "bytes": 713,
+        "gzipBytes": 424,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/mic-DZ05TCJ_.js",
+        "bytes": 583,
+        "gzipBytes": 377,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/mic-off-DEDJwA2O.js",
+        "bytes": 739,
+        "gzipBytes": 424,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/minimize-2-D6nLzL9J.js",
+        "bytes": 773,
+        "gzipBytes": 417,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/minus-rA8iI851.js",
+        "bytes": 465,
+        "gzipBytes": 306,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/module.slim.no-external-CCOCy_Gx.js",
+        "bytes": 156861,
+        "gzipBytes": 50664,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/nativeEvents-BnoLXYHt.js",
+        "bytes": 1783,
+        "gzipBytes": 882,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/nativeInvoke-CTq3A0Hk.js",
+        "bytes": 603,
+        "gzipBytes": 360,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/notification-AkSum1Of.js",
+        "bytes": 3908,
+        "gzipBytes": 1578,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/officeAssistantCall-BOffufxo.js",
+        "bytes": 17274,
+        "gzipBytes": 6067,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/orbRenderer-DwCRbj9h.js",
+        "bytes": 15152,
+        "gzipBytes": 6037,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/palette-Cwrmr-lk.js",
+        "bytes": 858,
+        "gzipBytes": 445,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/paneActivity-BJeADhM7.js",
+        "bytes": 1088,
+        "gzipBytes": 557,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/paneDropTarget-DsuEMAnF.js",
+        "bytes": 998,
+        "gzipBytes": 560,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/panes-CDzT4q8H.js",
+        "bytes": 5407,
+        "gzipBytes": 2255,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/pause-BZnPM8i-.js",
+        "bytes": 559,
+        "gzipBytes": 334,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/pdf.worker.min-Dswkl-cV.mjs",
+        "bytes": 1265770,
+        "gzipBytes": 1265770,
+        "kind": "asset"
+      },
+      {
+        "file": "assets/pdfAssets-SdgNUsjy.js",
+        "bytes": 135399,
+        "gzipBytes": 49133,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/pdfEngine-C0ik9vlB.js",
+        "bytes": 461123,
+        "gzipBytes": 135026,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/pencil-CJQcj41x.js",
+        "bytes": 624,
+        "gzipBytes": 396,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/pin-PIXxiJKQ.js",
+        "bytes": 975,
+        "gzipBytes": 475,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/placeWorkspaceLaunch-BPGV8EwS.js",
+        "bytes": 1697,
+        "gzipBytes": 839,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/play-iiNeVn2L.js",
+        "bytes": 538,
+        "gzipBytes": 347,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/pluginIdentity-Doii9gO3.js",
+        "bytes": 607,
+        "gzipBytes": 382,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/plugins-C_sAUJ3j.js",
+        "bytes": 7771,
+        "gzipBytes": 2142,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/plus-h-MTFgOI.js",
+        "bytes": 501,
+        "gzipBytes": 319,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/pointerDropTargets-D2Xnxdg8.js",
+        "bytes": 1257,
+        "gzipBytes": 667,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/preload-helper-Czpn1I53.js",
+        "bytes": 1553,
+        "gzipBytes": 842,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/progress-CrwOFKcn.js",
+        "bytes": 4919,
+        "gzipBytes": 2152,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/promptDelivery-D4au0jIx.js",
+        "bytes": 8515,
+        "gzipBytes": 3855,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/promptDropTargets-BknDNzcK.js",
+        "bytes": 523,
+        "gzipBytes": 328,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/providerFailure-BGShSnFt.js",
+        "bytes": 5300,
+        "gzipBytes": 1924,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/puzzle-BcAWs5ON.js",
+        "bytes": 919,
+        "gzipBytes": 438,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/react-SIfiwpqq.js",
+        "bytes": 8543,
+        "gzipBytes": 3322,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/refresh-cw-C0urgXmS.js",
+        "bytes": 669,
+        "gzipBytes": 393,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/remote-CDyNhTn5.js",
+        "bytes": 1868,
+        "gzipBytes": 943,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/rotate-ccw-BLGeS4NF.js",
+        "bytes": 548,
+        "gzipBytes": 352,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/rotate-ccw-clock-ReCupAs4.js",
+        "bytes": 594,
+        "gzipBytes": 372,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/rotate-cw-1euFuj4V.js",
+        "bytes": 549,
+        "gzipBytes": 354,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/routines-DNvqPiUM.js",
+        "bytes": 7691,
+        "gzipBytes": 2884,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/rows-2-CyGmAsF3.js",
+        "bytes": 1144,
+        "gzipBytes": 584,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/scene-JmELWoe4.js",
+        "bytes": 320542,
+        "gzipBytes": 104671,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/schemas-D7oRcHmS.js",
+        "bytes": 452,
+        "gzipBytes": 283,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/schemas-j-hB7U_4.js",
+        "bytes": 75597,
+        "gzipBytes": 19976,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/scratchpadStore-Zbx1pFwq.js",
+        "bytes": 4451,
+        "gzipBytes": 1806,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/search-DUOrhgiY.js",
+        "bytes": 522,
+        "gzipBytes": 335,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/send-Bl8szYbE.js",
+        "bytes": 638,
+        "gzipBytes": 400,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/sentryClient-DjGJ32d6.js",
+        "bytes": 85440,
+        "gzipBytes": 28707,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/settings-4DLcM1v7.js",
+        "bytes": 835,
+        "gzipBytes": 425,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/settings-page-RnV_eRBL.css",
+        "bytes": 6924,
+        "gzipBytes": 1545,
+        "kind": "css"
+      },
+      {
+        "file": "assets/settings-page-VeaN-RNO.js",
+        "bytes": 1845,
+        "gzipBytes": 933,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/shell-RFF5JWAG.js",
+        "bytes": 8942,
+        "gzipBytes": 3730,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/shield-check-C4-MUqmt.js",
+        "bytes": 668,
+        "gzipBytes": 423,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/sideFiles-uDrtBuA1.js",
+        "bytes": 2423,
+        "gzipBytes": 1169,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/sideFilesPreference-Du3NyMmh.js",
+        "bytes": 1519,
+        "gzipBytes": 774,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/sidePanelAppsRuntime-BI2oiy24.js",
+        "bytes": 586,
+        "gzipBytes": 352,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/sliders-horizontal-BZsD-Kao.js",
+        "bytes": 772,
+        "gzipBytes": 409,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/smartphone-C0jDOuKk.js",
+        "bytes": 545,
+        "gzipBytes": 352,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/sound-DL26ePu9.js",
+        "bytes": 446,
+        "gzipBytes": 280,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/sparkles-DN-WBKJF.js",
+        "bytes": 842,
+        "gzipBytes": 454,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/square-ChYa7EXU.js",
+        "bytes": 495,
+        "gzipBytes": 320,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/square-arrow-out-up-right-H4YzAb4Q.js",
+        "bytes": 609,
+        "gzipBytes": 380,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/square-pen-BWl4Os_L.js",
+        "bytes": 1283,
+        "gzipBytes": 620,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/square-terminal-CU_vC70z.js",
+        "bytes": 590,
+        "gzipBytes": 373,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ssh-workspace-BpU-Xv_s.css",
+        "bytes": 1923,
+        "gzipBytes": 620,
+        "kind": "css"
+      },
+      {
+        "file": "assets/submissionPlan-1ebKu05b.js",
+        "bytes": 1736,
+        "gzipBytes": 855,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/submissionProbe-RdSaUMT1.js",
+        "bytes": 755,
+        "gzipBytes": 440,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/sun-CPSV-q5d.js",
+        "bytes": 984,
+        "gzipBytes": 515,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/taskDrop-CW31KPjo.css",
+        "bytes": 1409,
+        "gzipBytes": 520,
+        "kind": "css"
+      },
+      {
+        "file": "assets/taskDropTargets-ChOsHc1x.js",
+        "bytes": 1392,
+        "gzipBytes": 766,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/taskExecution-BpfOyGXx.js",
+        "bytes": 3996,
+        "gzipBytes": 1665,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/taskHandoff-q7WaH2yb.js",
+        "bytes": 2072,
+        "gzipBytes": 992,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/telemetry-CbJ5g2AL.js",
+        "bytes": 2390,
+        "gzipBytes": 1257,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/telemetryClient-Di94oJjx.js",
+        "bytes": 11734,
+        "gzipBytes": 5054,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/terminalEscapes-B4VIGGLL.js",
+        "bytes": 528,
+        "gzipBytes": 336,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/terminalFontSize-CgzV6TQr.js",
+        "bytes": 1442,
+        "gzipBytes": 707,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/terminalHost-naZxxOML.js",
+        "bytes": 3482,
+        "gzipBytes": 1387,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/terminalRuntime.production-CcZJiczA.js",
+        "bytes": 33299,
+        "gzipBytes": 10554,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/terminalScrollbackRegistry-uD3C_F34.js",
+        "bytes": 541,
+        "gzipBytes": 311,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/terminalTaskDelivery-Ccp9O_bp.js",
+        "bytes": 765,
+        "gzipBytes": 471,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/themeCatalog-IozZnSrt.js",
+        "bytes": 5309,
+        "gzipBytes": 1916,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/thread-grid-DRVElEeT.css",
+        "bytes": 4237,
+        "gzipBytes": 1191,
+        "kind": "css"
+      },
+      {
+        "file": "assets/thread-grid-VRnys_TU.js",
+        "bytes": 1560,
+        "gzipBytes": 693,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/threadGrid-MgtUr-uw.js",
+        "bytes": 1374,
+        "gzipBytes": 673,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/three.module-DKRjkKHb.js",
+        "bytes": 538580,
+        "gzipBytes": 134326,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/tickets-Cum0UZdt.js",
+        "bytes": 5638,
+        "gzipBytes": 2493,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/time-7Em5aelp.js",
+        "bytes": 791,
+        "gzipBytes": 425,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/towerHud-CtA8Yf_p.js",
+        "bytes": 8413,
+        "gzipBytes": 3091,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/towerHud-DrMaBKGU.css",
+        "bytes": 8215,
+        "gzipBytes": 2161,
+        "kind": "css"
+      },
+      {
+        "file": "assets/transcriptSearch-DaAgA3mX.js",
+        "bytes": 1760,
+        "gzipBytes": 886,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/trash-2-BoDrCofr.js",
+        "bytes": 676,
+        "gzipBytes": 387,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/ui-GeFeEgKA.js",
+        "bytes": 3890,
+        "gzipBytes": 1539,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/undo-2-C8Ku10XQ.js",
+        "bytes": 556,
+        "gzipBytes": 345,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/useBrowserSurface-DDcURJcG.js",
+        "bytes": 17196,
+        "gzipBytes": 4889,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/useCountdownTick-Bx8TXmS5.js",
+        "bytes": 920,
+        "gzipBytes": 469,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/usePaneActivity-B8z7p1La.js",
+        "bytes": 1978,
+        "gzipBytes": 974,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/usePluginConnections-Dh4I1RlD.js",
+        "bytes": 2648,
+        "gzipBytes": 1257,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/usePointerDrag-DjRo37fZ.js",
+        "bytes": 2196,
+        "gzipBytes": 888,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/useRailMenu-DLKqKSCA.js",
+        "bytes": 875,
+        "gzipBytes": 493,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/user-plus-Dwo0_Jev.js",
+        "bytes": 658,
+        "gzipBytes": 401,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/user-round-plus-BBLpDGSj.js",
+        "bytes": 613,
+        "gzipBytes": 388,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/users-DXo4fiY4.js",
+        "bytes": 654,
+        "gzipBytes": 392,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/volume-x-DCzHHLyg.js",
+        "bytes": 1075,
+        "gzipBytes": 504,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/wand-sparkles-CAwyskWk.js",
+        "bytes": 861,
+        "gzipBytes": 461,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/webview-yEvs2blx.js",
+        "bytes": 3759,
+        "gzipBytes": 1316,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/whatsNewScene-CttxPVFF.js",
+        "bytes": 5414,
+        "gzipBytes": 2577,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/window-CtlHtcNe.js",
+        "bytes": 11531,
+        "gzipBytes": 2975,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/workResolution-D6cyAtsx.js",
+        "bytes": 831,
+        "gzipBytes": 497,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/workspaceChanges-v4GApiEa.js",
+        "bytes": 2968,
+        "gzipBytes": 1345,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/workspaceGit-B3ocQsfA.js",
+        "bytes": 3701,
+        "gzipBytes": 1563,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/wrench-B01UWpds.js",
+        "bytes": 651,
+        "gzipBytes": 407,
+        "kind": "javascript"
+      },
+      {
+        "file": "assets/zap-L7jU4UrA.js",
+        "bytes": 621,
+        "gzipBytes": 387,
+        "kind": "javascript"
+      }
+    ]
+  }
+}
